@@ -1,0 +1,2 @@
+stop();
+obj.stop();

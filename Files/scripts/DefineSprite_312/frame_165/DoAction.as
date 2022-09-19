@@ -1,0 +1,1 @@
+obj.gotoAndStop(3);

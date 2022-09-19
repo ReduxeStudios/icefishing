@@ -1,0 +1,2 @@
+label.text = localisedText;
+stop();

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" height="451.05px" width="728.05px" xmlns="http://www.w3.org/2000/svg">
+  <g transform="matrix(1.0, 0.0, 0.0, 1.0, 1.05, 1.05)">
+    <path d="M711.95 13.95 L713.8 12.1 713.8 436.8 711.95 434.95 711.95 13.95" fill="#515151" fill-rule="evenodd" stroke="none"/>
+    <path d="M713.8 12.1 L711.95 13.95 13.95 13.95 12.1 12.1 713.8 12.1" fill="#888888" fill-rule="evenodd" stroke="none"/>
+    <path d="M711.95 434.95 L713.8 436.8 12.1 436.8 13.95 434.95 711.95 434.95" fill="#383737" fill-rule="evenodd" stroke="none"/>
+    <path d="M12.1 12.1 L13.95 13.95 13.95 434.95 12.1 436.8 12.1 12.1" fill="#6d6d6d" fill-rule="evenodd" stroke="none"/>
+    <path d="M13.95 13.95 L711.95 13.95 711.95 434.95 13.95 434.95 13.95 13.95 M708.95 16.95 L315.8 16.95 16.95 16.95 16.95 193.45 16.95 431.95 708.95 431.95 708.95 16.95" fill="#663300" fill-rule="evenodd" stroke="none"/>
+    <path d="M-0.05 -0.05 L12.1 12.1 12.1 436.8 -0.05 448.95 -0.05 -0.05" fill="#cc9966" fill-rule="evenodd" stroke="none"/>
+    <path d="M713.8 436.8 L713.8 12.1 725.95 -0.05 725.95 448.95 713.8 436.8" fill="#996633" fill-rule="evenodd" stroke="none"/>
+    <path d="M713.8 436.8 L725.95 448.95 -0.05 448.95 12.1 436.8 713.8 436.8" fill="#604020" fill-rule="evenodd" stroke="none"/>
+    <path d="M713.8 12.1 L12.1 12.1 -0.05 -0.05 725.95 -0.05 713.8 12.1" fill="#d9b38c" fill-rule="evenodd" stroke="none"/>
+    <path d="M13.95 13.95 L711.95 13.95 711.95 434.95 13.95 434.95 13.95 13.95 M725.95 -0.05 L-0.05 -0.05 -0.05 448.95 725.95 448.95 725.95 -0.05 M708.95 16.95 L315.8 16.95 16.95 16.95 16.95 193.45 16.95 431.95 708.95 431.95 708.95 16.95" fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.0"/>
+    <path d="M713.8 12.1 L12.1 12.1 12.1 436.8 -0.05 448.95 M713.8 436.8 L713.8 12.1 725.95 -0.05 M-0.05 -0.05 L12.1 12.1 M725.95 448.95 L713.8 436.8 12.1 436.8" fill="none" stroke="#ffcc99" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    <path d="M726.0 0.0 L0.0 0.0 0.0 449.0 726.0 449.0 726.0 0.0 Z" fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.0"/>
+  </g>
+</svg>

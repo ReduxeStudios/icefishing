@@ -1,0 +1,14 @@
+move_txt.text = com.clubpenguin.util.LocaleText.getText("move_title").toUpperCase();
+catch_txt.text = com.clubpenguin.util.LocaleText.getText("catch_title").toUpperCase();
+hints_txt.text = com.clubpenguin.util.LocaleText.getText("hints_title").toUpperCase();
+danger_txt.text = com.clubpenguin.util.LocaleText.getText("danger_title").toUpperCase();
+help_raise.text = com.clubpenguin.util.LocaleText.getText("help_raise");
+help_bucket.text = com.clubpenguin.util.LocaleText.getText("help_bucket");
+fluffy_txt.text = com.clubpenguin.util.LocaleText.getText("fluffy_instructions_screen");
+mullet_txt.text = com.clubpenguin.util.LocaleText.getText("mullet_instructions_screen");
+worms_txt.text = com.clubpenguin.util.LocaleText.getText("worms_instructions_screen");
+four_coins_txt.text = com.clubpenguin.util.LocaleText.getText("four_coins");
+one_hundred_txt.text = com.clubpenguin.util.LocaleText.getText("one_hundred_coins");
+one_life.text = com.clubpenguin.util.LocaleText.getText("one_life");
+ice_box.fish.text = com.clubpenguin.util.LocaleText.getText("fish_txt");
+ice_box2.fish.text = com.clubpenguin.util.LocaleText.getText("fish_txt");

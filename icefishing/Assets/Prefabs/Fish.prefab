@@ -1,0 +1,3087 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2772511131661728561
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2772511131661728571}
+  - component: {fileID: 2772511131661728570}
+  - component: {fileID: 2772511131661728573}
+  - component: {fileID: 2772511131661728572}
+  - component: {fileID: 2772511131661728575}
+  - component: {fileID: 2772511131661728574}
+  m_Layer: 6
+  m_Name: Fish
+  m_TagString: fish
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2772511131661728571
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2772511131661728561}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.25, y: 1.25, z: 1.25}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &2772511131661728570
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2772511131661728561}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 4
+  m_Sprite: {fileID: 21300000, guid: 3ad5253f24cd7dc47b393a0c60b56701, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 1
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!95 &2772511131661728573
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2772511131661728561}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: e26ffe646adf91047b2aafac86158997, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!60 &2772511131661728572
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2772511131661728561}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 11.09, y: 1.61}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 1
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -4.96, y: -0.43}
+      - {x: -4.13, y: -0.33}
+      - {x: -4.42, y: 0.010000001}
+      - {x: -4.8199997, y: 0.040000003}
+      - {x: -5.17, y: -0.09}
+      - {x: -5.45, y: -0.010000001}
+      - {x: -5.46, y: -0.35}
+      - {x: -5.1400003, y: -0.25}
+      - {x: -4.9100003, y: -0.36}
+--- !u!114 &2772511131661728575
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2772511131661728561}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c55c83d4c4dd1145ad5fbbab3c3df36, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AlphaTolerance: 20
+  DistanceThreshold: 8
+  Scale: 1
+  Decompose: 0
+  RunInPlayMode: 1
+  UseCache: 1
+  lastAlphaTolerance: 20
+  lastScale: 1
+  lastDistanceThreshold: 8
+  lastDecompose: 0
+  lastSprite: {fileID: 21300000, guid: 3ad5253f24cd7dc47b393a0c60b56701, type: 3}
+  lastRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1109
+    height: 161
+  lastOffset: {x: 554.5, y: 80.5}
+  lastPixelsPerUnit: 100
+  lastFlipX: 0
+  lastFlipY: 0
+  editorCache:
+  - Key:
+      Texture: {fileID: 2800000, guid: a2c7c231c85b6a340afba139bfa3dc14, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1109
+        height: 161
+    Value:
+      List:
+      - Array:
+        - {x: -4.8900003, y: -0.46000004}
+        - {x: -4.07, y: -0.33}
+        - {x: -4.33, y: -0.030000001}
+        - {x: -4.61, y: 0.030000001}
+        - {x: -5.11, y: -0.14}
+        - {x: -5.48, y: -0.11}
+        - {x: -5.36, y: -0.21}
+        - {x: -5.4300003, y: -0.42}
+        - {x: -5.07, y: -0.28}
+        - {x: -4.84, y: -0.36}
+        - {x: -4.8900003, y: -0.44}
+      - Array:
+        - {x: -4.9, y: -0.45000002}
+        - {x: -4.07, y: -0.33}
+        - {x: -4.33, y: -0.030000001}
+        - {x: -4.61, y: 0.030000001}
+        - {x: -5.11, y: -0.14}
+        - {x: -5.48, y: -0.11}
+        - {x: -5.36, y: -0.21}
+        - {x: -5.4300003, y: -0.42}
+        - {x: -5.07, y: -0.28}
+        - {x: -4.84, y: -0.36}
+        - {x: -4.8900003, y: -0.44}
+  - Key:
+      Texture: {fileID: 2800000, guid: 819598da37738c54e8d690166f121c91, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1109
+        height: 161
+    Value:
+      List:
+      - Array:
+        - {x: -5.2200003, y: -0.51}
+        - {x: -4.98, y: -0.32000002}
+        - {x: -4.75, y: -0.39}
+        - {x: -4.83, y: -0.48000002}
+        - {x: -4, y: -0.36}
+        - {x: -4.28, y: -0.040000003}
+        - {x: -4.6600003, y: 0.010000001}
+        - {x: -5, y: -0.17}
+        - {x: -5.31, y: -0.14}
+        - {x: -5.25, y: -0.5}
+  - Key:
+      Texture: {fileID: 2800000, guid: 3905e520bb9401f4ea6c3614f326b08a, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1109
+        height: 161
+    Value:
+      List:
+      - Array:
+        - {x: -4.76, y: -0.5}
+        - {x: -3.93, y: -0.4}
+        - {x: -4.2200003, y: -0.060000002}
+        - {x: -5.34, y: -0.14}
+        - {x: -5.23, y: -0.25}
+        - {x: -5.29, y: -0.47}
+        - {x: -4.96, y: -0.32000002}
+        - {x: -4.73, y: -0.45000002}
+  - Key:
+      Texture: {fileID: 2800000, guid: 0dd39882b15d5114aa09937b3d04be74, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1109
+        height: 161
+    Value:
+      List:
+      - Array:
+        - {x: -4.69, y: -0.52}
+        - {x: -3.87, y: -0.39}
+        - {x: -4.15, y: -0.080000006}
+        - {x: -5.19, y: -0.11}
+        - {x: -5.21, y: -0.43}
+        - {x: -4.88, y: -0.34}
+        - {x: -4.6600003, y: -0.47}
+  - Key:
+      Texture: {fileID: 2800000, guid: 0dd206310b0d01d44a497ef8c4f0242e, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1109
+        height: 161
+    Value:
+      List:
+      - Array:
+        - {x: -4.63, y: -0.54}
+        - {x: -3.8000002, y: -0.40999997}
+        - {x: -4.08, y: -0.1}
+        - {x: -4.29, y: -0.060000002}
+        - {x: -4.83, y: -0.22}
+        - {x: -5.21, y: -0.19}
+        - {x: -5.09, y: -0.29}
+        - {x: -5.19, y: -0.48999998}
+        - {x: -4.83, y: -0.36}
+        - {x: -4.61, y: -0.51}
+  - Key:
+      Texture: {fileID: 2800000, guid: 7573b015f320bbf4aa676066b1dc2e8f, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1109
+        height: 161
+    Value:
+      List:
+      - Array:
+        - {x: -4.9700003, y: -0.58}
+        - {x: -4.71, y: -0.4}
+        - {x: -4.48, y: -0.46000004}
+        - {x: -4.56, y: -0.56}
+        - {x: -3.7300003, y: -0.46000004}
+        - {x: -3.99, y: -0.13}
+        - {x: -4.4, y: -0.07}
+        - {x: -4.73, y: -0.25}
+        - {x: -5.0499997, y: -0.22}
+        - {x: -4.9900002, y: -0.57}
+  - Key:
+      Texture: {fileID: 2800000, guid: 82474e498e478de44ae0375eb3f3596b, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1109
+        height: 161
+    Value:
+      List:
+      - Array:
+        - {x: -4.4900002, y: -0.57}
+        - {x: -3.6599998, y: -0.45000002}
+        - {x: -3.92, y: -0.14999999}
+        - {x: -4.17, y: -0.09}
+        - {x: -4.6800003, y: -0.25}
+        - {x: -5.07, y: -0.22}
+        - {x: -4.96, y: -0.32000002}
+        - {x: -5.02, y: -0.54}
+        - {x: -4.6800003, y: -0.39}
+        - {x: -4.4700003, y: -0.54}
+  - Key:
+      Texture: {fileID: 2800000, guid: 6860e019f5f0a9c4ab45066d2de11df8, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1109
+        height: 161
+    Value:
+      List:
+      - Array:
+        - {x: -4.42, y: -0.59000003}
+        - {x: -3.5900002, y: -0.48999998}
+        - {x: -3.89, y: -0.14}
+        - {x: -4.65, y: -0.25}
+        - {x: -4.9100003, y: -0.16000001}
+        - {x: -4.9300003, y: -0.5}
+        - {x: -4.6, y: -0.40999997}
+        - {x: -4.39, y: -0.54}
+  - Key:
+      Texture: {fileID: 2800000, guid: 9a3d51a5a25cf7444aa7779811126ad8, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1109
+        height: 161
+    Value:
+      List:
+      - Array:
+        - {x: -4.35, y: -0.59999996}
+        - {x: -3.5200002, y: -0.5}
+        - {x: -3.8000002, y: -0.16000001}
+        - {x: -4.9300003, y: -0.24000001}
+        - {x: -4.8199997, y: -0.35}
+        - {x: -4.9100003, y: -0.55}
+        - {x: -4.55, y: -0.42}
+        - {x: -4.3, y: -0.5}
+        - {x: -4.34, y: -0.58}
+  - Key:
+      Texture: {fileID: 2800000, guid: 413047656794ce246b7a5f2b9d575ec2, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1109
+        height: 161
+    Value:
+      List:
+      - Array:
+        - {x: -4.6800003, y: -0.64000005}
+        - {x: -4.4300003, y: -0.45000002}
+        - {x: -4.2000003, y: -0.52}
+        - {x: -4.28, y: -0.61}
+        - {x: -3.45, y: -0.51}
+        - {x: -3.74, y: -0.17}
+        - {x: -4.1, y: -0.120000005}
+        - {x: -4.4500003, y: -0.29999998}
+        - {x: -4.77, y: -0.28}
+        - {x: -4.7000003, y: -0.63}
+  - Key:
+      Texture: {fileID: 2800000, guid: ecec7d8a56c50b44288edbe00de9c6bd, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1109
+        height: 161
+    Value:
+      List:
+      - Array:
+        - {x: -4.21, y: -0.62}
+        - {x: -3.38, y: -0.52}
+        - {x: -3.6399999, y: -0.2}
+        - {x: -3.88, y: -0.14}
+        - {x: -4.41, y: -0.29999998}
+        - {x: -4.79, y: -0.26}
+        - {x: -4.6800003, y: -0.37}
+        - {x: -4.76, y: -0.58}
+        - {x: -4.41, y: -0.44}
+        - {x: -4.18, y: -0.57}
+  - Key:
+      Texture: {fileID: 2800000, guid: 685e7322209685e41b5a6d8fa03ddf54, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1109
+        height: 161
+    Value:
+      List:
+      - Array:
+        - {x: -4.14, y: -0.63}
+        - {x: -3.3100002, y: -0.53000003}
+        - {x: -3.5900002, y: -0.19}
+        - {x: -4, y: -0.16000001}
+        - {x: -4.37, y: -0.29}
+        - {x: -4.63, y: -0.2}
+        - {x: -4.62, y: -0.56}
+        - {x: -4.36, y: -0.45000002}
+        - {x: -4.08, y: -0.55}
+  - Key:
+      Texture: {fileID: 2800000, guid: 5712f9c2ce2beb24996560f534e7d884, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1109
+        height: 161
+    Value:
+      List:
+      - Array:
+        - {x: -4.07, y: -0.64000005}
+        - {x: -3.24, y: -0.52}
+        - {x: -3.5400002, y: -0.19}
+        - {x: -4.65, y: -0.28}
+        - {x: -4.54, y: -0.39}
+        - {x: -4.63, y: -0.59000003}
+        - {x: -4.28, y: -0.46000004}
+        - {x: -4.04, y: -0.59000003}
+  - Key:
+      Texture: {fileID: 2800000, guid: ac6f0b221c1f020409c8249cbf3e8e9d, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1109
+        height: 161
+    Value:
+      List:
+      - Array:
+        - {x: -4.4, y: -0.67}
+        - {x: -4.14, y: -0.48000002}
+        - {x: -3.92, y: -0.55}
+        - {x: -4, y: -0.64000005}
+        - {x: -3.17, y: -0.54}
+        - {x: -3.44, y: -0.21}
+        - {x: -3.78, y: -0.14999999}
+        - {x: -4.19, y: -0.34}
+        - {x: -4.48, y: -0.29999998}
+        - {x: -4.4300003, y: -0.66}
+      - Array:
+        - {x: -3.8200002, y: 0.5}
+        - {x: -3.74, y: 0.51}
+  - Key:
+      Texture: {fileID: 2800000, guid: c9c682959d6580f429f6383083433045, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1109
+        height: 161
+    Value:
+      List:
+      - Array:
+        - {x: -3.93, y: -0.65}
+        - {x: -3.1000001, y: -0.53000003}
+        - {x: -3.38, y: -0.21}
+        - {x: -3.6399999, y: -0.16000001}
+        - {x: -4.14, y: -0.33}
+        - {x: -4.51, y: -0.29}
+        - {x: -4.4, y: -0.4}
+        - {x: -4.4900002, y: -0.59999996}
+        - {x: -4.14, y: -0.47}
+        - {x: -3.9, y: -0.59999996}
+  - Key:
+      Texture: {fileID: 2800000, guid: 72f67a40360472e498d8591ecc084ebc, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1109
+        height: 161
+    Value:
+      List:
+      - Array:
+        - {x: -3.8600001, y: -0.65}
+        - {x: -3.03, y: -0.55}
+        - {x: -3.32, y: -0.21}
+        - {x: -3.72, y: -0.18}
+        - {x: -4.08, y: -0.31}
+        - {x: -4.35, y: -0.23000002}
+        - {x: -4.37, y: -0.56}
+        - {x: -4.04, y: -0.47}
+        - {x: -3.85, y: -0.63}
+  - Key:
+      Texture: {fileID: 2800000, guid: ceefbd2681574ef448e470b94118f8ce, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1109
+        height: 161
+    Value:
+      List:
+      - Array:
+        - {x: -3.79, y: -0.65}
+        - {x: -2.96, y: -0.56}
+        - {x: -3.2500002, y: -0.21}
+        - {x: -4.36, y: -0.28}
+        - {x: -4.26, y: -0.4}
+        - {x: -4.32, y: -0.62}
+        - {x: -3.9799998, y: -0.47}
+        - {x: -3.77, y: -0.62}
+  - Key:
+      Texture: {fileID: 2800000, guid: a51e765c304084e47b458f5b96660bab, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1109
+        height: 161
+    Value:
+      List:
+      - Array:
+        - {x: -4.13, y: -0.68}
+        - {x: -3.87, y: -0.5}
+        - {x: -3.65, y: -0.55}
+        - {x: -3.72, y: -0.65}
+        - {x: -2.89, y: -0.56}
+        - {x: -3.1599998, y: -0.22}
+        - {x: -3.51, y: -0.16000001}
+        - {x: -3.9, y: -0.35}
+        - {x: -4.2000003, y: -0.31}
+        - {x: -4.16, y: -0.66}
+  - Key:
+      Texture: {fileID: 2800000, guid: e0e80d4c00e10fb4d91f5d21fb284833, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1109
+        height: 161
+    Value:
+      List:
+      - Array:
+        - {x: -3.65, y: -0.65}
+        - {x: -2.82, y: -0.56}
+        - {x: -3.1100001, y: -0.21}
+        - {x: -4.23, y: -0.29999998}
+        - {x: -4.12, y: -0.4}
+        - {x: -4.18, y: -0.62}
+        - {x: -3.87, y: -0.48000002}
+        - {x: -3.58, y: -0.57}
+  - Key:
+      Texture: {fileID: 2800000, guid: 917a3d31e21aff44b91bebcecca08b38, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1109
+        height: 161
+    Value:
+      List:
+      - Array:
+        - {x: -3.58, y: -0.65}
+        - {x: -2.75, y: -0.56}
+        - {x: -3.0400002, y: -0.21}
+        - {x: -3.4299998, y: -0.18}
+        - {x: -3.79, y: -0.31}
+        - {x: -4.07, y: -0.23000002}
+        - {x: -4.09, y: -0.56}
+        - {x: -3.79, y: -0.47}
+        - {x: -3.56, y: -0.62}
+  - Key:
+      Texture: {fileID: 2800000, guid: 5179a3e13dc88254aac5ad3499150416, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1109
+        height: 161
+    Value:
+      List:
+      - Array:
+        - {x: -3.51, y: -0.65}
+        - {x: -2.68, y: -0.56}
+        - {x: -2.9699998, y: -0.21}
+        - {x: -4.09, y: -0.29}
+        - {x: -3.9799998, y: -0.4}
+        - {x: -4.03, y: -0.62}
+        - {x: -3.7, y: -0.47}
+        - {x: -3.44, y: -0.57}
+  - Key:
+      Texture: {fileID: 2800000, guid: 18b4fea919f8c8f4395297edd26354ad, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1109
+        height: 161
+    Value:
+      List:
+      - Array:
+        - {x: -3.8600001, y: -0.67}
+        - {x: -3.5900002, y: -0.48999998}
+        - {x: -3.37, y: -0.55}
+        - {x: -3.44, y: -0.65}
+        - {x: -2.6100001, y: -0.55}
+        - {x: -2.89, y: -0.21}
+        - {x: -3.28, y: -0.16000001}
+        - {x: -3.6100001, y: -0.34}
+        - {x: -3.92, y: -0.31}
+        - {x: -3.88, y: -0.65}
+  - Key:
+      Texture: {fileID: 2800000, guid: 0f21d07158d332748b8d33c2ca457f00, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1109
+        height: 161
+    Value:
+      List:
+      - Array:
+        - {x: -3.37, y: -0.64000005}
+        - {x: -2.54, y: -0.55}
+        - {x: -2.8300002, y: -0.2}
+        - {x: -3.95, y: -0.29}
+        - {x: -3.8400002, y: -0.39}
+        - {x: -3.9, y: -0.61}
+        - {x: -3.56, y: -0.46000004}
+        - {x: -3.35, y: -0.61}
+  - Key:
+      Texture: {fileID: 2800000, guid: 03306b4f0ce75e346b302e35db1255bd, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1109
+        height: 161
+    Value:
+      List:
+      - Array:
+        - {x: -3.3, y: -0.64000005}
+        - {x: -2.47, y: -0.54}
+        - {x: -2.75, y: -0.2}
+        - {x: -3.1000001, y: -0.16000001}
+        - {x: -3.5200002, y: -0.29999998}
+        - {x: -3.79, y: -0.22}
+        - {x: -3.81, y: -0.55}
+        - {x: -3.4800003, y: -0.46000004}
+        - {x: -3.24, y: -0.56}
+  - Key:
+      Texture: {fileID: 2800000, guid: b718cdf0ba6a8dc41abeefd2f8bc7d83, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1109
+        height: 161
+    Value:
+      List:
+      - Array:
+        - {x: -3.23, y: -0.63}
+        - {x: -2.4, y: -0.54}
+        - {x: -2.69, y: -0.19}
+        - {x: -3.8000002, y: -0.26}
+        - {x: -3.7, y: -0.38}
+        - {x: -3.76, y: -0.59999996}
+        - {x: -3.42, y: -0.45000002}
+        - {x: -3.21, y: -0.59999996}
+  - Key:
+      Texture: {fileID: 2800000, guid: fb7865b2432fdfb4b91e71209452fd5f, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1109
+        height: 161
+    Value:
+      List:
+      - Array:
+        - {x: -3.5700002, y: -0.65}
+        - {x: -3.3100002, y: -0.47}
+        - {x: -3.09, y: -0.52}
+        - {x: -3.1599998, y: -0.62}
+        - {x: -2.3300002, y: -0.53000003}
+        - {x: -2.6100001, y: -0.19}
+        - {x: -2.92, y: -0.13}
+        - {x: -3.3300002, y: -0.32000002}
+        - {x: -3.65, y: -0.29}
+        - {x: -3.55, y: -0.42}
+        - {x: -3.6, y: -0.63}
+  - Key:
+      Texture: {fileID: 2800000, guid: 2806d498ecfbbcb4384a7479debffe16, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1109
+        height: 161
+    Value:
+      List:
+      - Array:
+        - {x: -3.09, y: -0.62}
+        - {x: -2.26, y: -0.5}
+        - {x: -2.5700002, y: -0.17}
+        - {x: -3.67, y: -0.26}
+        - {x: -3.56, y: -0.37}
+        - {x: -3.65, y: -0.57}
+        - {x: -3.26, y: -0.44}
+        - {x: -3.07, y: -0.58}
+  - Key:
+      Texture: {fileID: 2800000, guid: 14acaca282b611640b8c14d80f75f27a, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1109
+        height: 161
+    Value:
+      List:
+      - Array:
+        - {x: -3.0200002, y: -0.61}
+        - {x: -2.19, y: -0.51}
+        - {x: -2.47, y: -0.17}
+        - {x: -2.82, y: -0.13}
+        - {x: -3.2500002, y: -0.27}
+        - {x: -3.51, y: -0.18}
+        - {x: -3.5400002, y: -0.51}
+        - {x: -3.21, y: -0.43}
+        - {x: -2.99, y: -0.56}
+  - Key:
+      Texture: {fileID: 2800000, guid: 405e6bbdd685a424fbf00ce2900aa07e, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1109
+        height: 161
+    Value:
+      List:
+      - Array:
+        - {x: -2.9499998, y: -0.59999996}
+        - {x: -2.1200001, y: -0.5}
+        - {x: -2.4, y: -0.16000001}
+        - {x: -3.53, y: -0.24000001}
+        - {x: -3.42, y: -0.35}
+        - {x: -3.51, y: -0.55}
+        - {x: -3.15, y: -0.42}
+        - {x: -2.9299998, y: -0.56}
+  - Key:
+      Texture: {fileID: 2800000, guid: 7f4058a8d37755d47aa3d94ba9ed2338, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1109
+        height: 161
+    Value:
+      List:
+      - Array:
+        - {x: -3.3, y: -0.61}
+        - {x: -3.03, y: -0.43}
+        - {x: -2.8100002, y: -0.48999998}
+        - {x: -2.88, y: -0.59000003}
+        - {x: -2.06, y: -0.45000002}
+        - {x: -2.3300002, y: -0.14999999}
+        - {x: -2.72, y: -0.1}
+        - {x: -3.05, y: -0.28}
+        - {x: -3.37, y: -0.25}
+        - {x: -3.2700002, y: -0.38}
+        - {x: -3.3300002, y: -0.59000003}
+  - Key:
+      Texture: {fileID: 2800000, guid: cfe8a22fcf7acae4080ebeea9decf7a5, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1109
+        height: 161
+    Value:
+      List:
+      - Array:
+        - {x: -2.8100002, y: -0.58}
+        - {x: -1.9800001, y: -0.47}
+        - {x: -2.25, y: -0.14999999}
+        - {x: -2.52, y: -0.09}
+        - {x: -3.0200002, y: -0.26}
+        - {x: -3.4, y: -0.23000002}
+        - {x: -3.28, y: -0.33}
+        - {x: -3.37, y: -0.53000003}
+        - {x: -2.99, y: -0.4}
+        - {x: -2.75, y: -0.48000002}
+        - {x: -2.8, y: -0.55}
+  - Key:
+      Texture: {fileID: 2800000, guid: f2c6e0f48954ccb47a3002f290a0e1f9, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1109
+        height: 161
+    Value:
+      List:
+      - Array:
+        - {x: -2.75, y: -0.56}
+        - {x: -1.9200001, y: -0.44}
+        - {x: -2.21, y: -0.120000005}
+        - {x: -2.5800002, y: -0.09}
+        - {x: -2.98, y: -0.23000002}
+        - {x: -3.24, y: -0.14999999}
+        - {x: -3.26, y: -0.47}
+        - {x: -2.9299998, y: -0.39}
+        - {x: -2.69, y: -0.48000002}
+  - Key:
+      Texture: {fileID: 2800000, guid: 08b153b7edd7e104c84cd4554dc4ef92, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1109
+        height: 161
+    Value:
+      List:
+      - Array:
+        - {x: -2.68, y: -0.55}
+        - {x: -1.85, y: -0.43}
+        - {x: -2.1100001, y: -0.13}
+        - {x: -2.3600001, y: -0.07}
+        - {x: -2.8700001, y: -0.23000002}
+        - {x: -3.26, y: -0.2}
+        - {x: -3.1399999, y: -0.31}
+        - {x: -3.21, y: -0.52}
+        - {x: -2.8700001, y: -0.37}
+        - {x: -2.6100001, y: -0.47}
+  - Key:
+      Texture: {fileID: 2800000, guid: 71b21cac87c44d740a10983ecdcc085a, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1109
+        height: 161
+    Value:
+      List:
+      - Array:
+        - {x: -2.54, y: -0.52}
+        - {x: -1.71, y: -0.43}
+        - {x: -2, y: -0.080000006}
+        - {x: -3.1200001, y: -0.17}
+        - {x: -3.01, y: -0.27}
+        - {x: -3.0800002, y: -0.48999998}
+        - {x: -2.75, y: -0.35}
+        - {x: -2.47, y: -0.44}
+  - Key:
+      Texture: {fileID: 2800000, guid: 0637fe697fac4324bb2374c5dfa248c0, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1109
+        height: 161
+    Value:
+      List:
+      - Array:
+        - {x: -2.47, y: -0.51}
+        - {x: -1.64, y: -0.40999997}
+        - {x: -1.9300001, y: -0.07}
+        - {x: -2.3300002, y: -0.040000003}
+        - {x: -2.69, y: -0.17}
+        - {x: -2.96, y: -0.080000006}
+        - {x: -2.98, y: -0.42}
+        - {x: -2.65, y: -0.33}
+        - {x: -2.4099998, y: -0.43}
+  - Key:
+      Texture: {fileID: 2800000, guid: 0f43443f392b8dc4888433385de2ff88, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1109
+        height: 161
+    Value:
+      List:
+      - Array:
+        - {x: -2.4, y: -0.5}
+        - {x: -1.5699999, y: -0.39}
+        - {x: -1.87, y: -0.05}
+        - {x: -2.99, y: -0.14999999}
+        - {x: -2.8700001, y: -0.25}
+        - {x: -2.96, y: -0.45000002}
+        - {x: -2.5700002, y: -0.32000002}
+        - {x: -2.3400002, y: -0.4}
+        - {x: -2.39, y: -0.47}
+  - Key:
+      Texture: {fileID: 2800000, guid: a77319fff31698c4e899dd71b82e1359, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1109
+        height: 161
+    Value:
+      List:
+      - Array:
+        - {x: -2.74, y: -0.51}
+        - {x: -2.48, y: -0.32000002}
+        - {x: -2.25, y: -0.39}
+        - {x: -2.3300002, y: -0.48000002}
+        - {x: -1.5, y: -0.38}
+        - {x: -1.79, y: -0.040000003}
+        - {x: -2.1200001, y: 0.010000001}
+        - {x: -2.52, y: -0.18}
+        - {x: -2.8100002, y: -0.14}
+        - {x: -2.76, y: -0.5}
+      - Array:
+        - {x: -2.14, y: 0.66}
+        - {x: -2.07, y: 0.66}
+        - {x: -2.09, y: 0.67}
+  - Key:
+      Texture: {fileID: 2800000, guid: 70588bd730968594e8d0f8640371a817, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1109
+        height: 161
+    Value:
+      List:
+      - Array:
+        - {x: -2.26, y: -0.47}
+        - {x: -1.44, y: -0.34}
+        - {x: -1.7, y: -0.040000003}
+        - {x: -1.9300001, y: 0.010000001}
+        - {x: -2.8500001, y: -0.13}
+        - {x: -2.73, y: -0.22}
+        - {x: -2.8300002, y: -0.42}
+        - {x: -2.46, y: -0.29}
+        - {x: -2.23, y: -0.42}
+  - Key:
+      Texture: {fileID: 2800000, guid: d692e6414263e3846af77577e937b1dc, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1109
+        height: 161
+    Value:
+      List:
+      - Array:
+        - {x: -2.19, y: -0.46000004}
+        - {x: -1.37, y: -0.33}
+        - {x: -1.65, y: -0.020000001}
+        - {x: -1.9899999, y: 0.020000001}
+        - {x: -2.42, y: -0.120000005}
+        - {x: -2.68, y: -0.030000001}
+        - {x: -2.7, y: -0.37}
+        - {x: -2.38, y: -0.28}
+        - {x: -2.18, y: -0.43}
+  - Key:
+      Texture: {fileID: 2800000, guid: 1f6a8326291af094d910e264b04766c2, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1109
+        height: 161
+    Value:
+      List:
+      - Array:
+        - {x: -2.1200001, y: -0.45000002}
+        - {x: -1.2900001, y: -0.34}
+        - {x: -1.5600001, y: -0.020000001}
+        - {x: -1.8299999, y: 0.040000003}
+        - {x: -2.3300002, y: -0.13}
+        - {x: -2.71, y: -0.1}
+        - {x: -2.5900002, y: -0.2}
+        - {x: -2.68, y: -0.4}
+        - {x: -2.3, y: -0.27}
+        - {x: -2.06, y: -0.35}
+        - {x: -2.1100001, y: -0.42}
+  - Key:
+      Texture: {fileID: 2800000, guid: 51ff5feb7f7d32548b2da062346516b5, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1109
+        height: 161
+    Value:
+      List:
+      - Array:
+        - {x: -2.47, y: -0.46000004}
+        - {x: -2.2, y: -0.28}
+        - {x: -1.9800001, y: -0.34}
+        - {x: -2.05, y: -0.44}
+        - {x: -1.22, y: -0.33}
+        - {x: -1.5200001, y: 0.010000001}
+        - {x: -1.89, y: 0.05}
+        - {x: -2.23, y: -0.13}
+        - {x: -2.54, y: -0.1}
+        - {x: -2.51, y: -0.42}
+  - Key:
+      Texture: {fileID: 2800000, guid: 24b40852c3dec5f43bc1d76b80c15894, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1109
+        height: 161
+    Value:
+      List:
+      - Array:
+        - {x: -1.9800001, y: -0.43}
+        - {x: -1.15, y: -0.32000002}
+        - {x: -1.45, y: 0.020000001}
+        - {x: -2.5700002, y: -0.080000006}
+        - {x: -2.45, y: -0.18}
+        - {x: -2.54, y: -0.38}
+        - {x: -2.16, y: -0.25}
+        - {x: -1.9700001, y: -0.4}
+  - Key:
+      Texture: {fileID: 2800000, guid: 8fa77878419b3f74dbccb3597b035192, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1109
+        height: 161
+    Value:
+      List:
+      - Array:
+        - {x: -1.9100001, y: -0.42}
+        - {x: -1.08, y: -0.31}
+        - {x: -1.39, y: 0.030000001}
+        - {x: -2.14, y: -0.080000006}
+        - {x: -2.4, y: 0.010000001}
+        - {x: -2.42, y: -0.33}
+        - {x: -2.1000001, y: -0.24000001}
+        - {x: -1.9000001, y: -0.39}
+  - Key:
+      Texture: {fileID: 2800000, guid: 433357e07f167604bb376615f07a7e61, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1109
+        height: 161
+    Value:
+      List:
+      - Array:
+        - {x: -1.84, y: -0.40999997}
+        - {x: -1.02, y: -0.27}
+        - {x: -1.2800001, y: 0.020000001}
+        - {x: -1.5699999, y: 0.080000006}
+        - {x: -2.05, y: -0.09}
+        - {x: -2.43, y: -0.060000002}
+        - {x: -2.31, y: -0.16000001}
+        - {x: -2.4, y: -0.36}
+        - {x: -2.04, y: -0.23000002}
+        - {x: -1.8199999, y: -0.37}
+  - Key:
+      Texture: {fileID: 2800000, guid: de45d4ce16aa5f942b5a321810d67de2, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1109
+        height: 161
+    Value:
+      List:
+      - Array:
+        - {x: -2.17, y: -0.43}
+        - {x: -1.9200001, y: -0.24000001}
+        - {x: -1.7, y: -0.31}
+        - {x: -1.7700001, y: -0.4}
+        - {x: -0.95000005, y: -0.27}
+        - {x: -1.21, y: 0.030000001}
+        - {x: -1.61, y: 0.09}
+        - {x: -1.94, y: -0.09}
+        - {x: -2.26, y: -0.060000002}
+        - {x: -2.2, y: -0.42}
+  - Key:
+      Texture: {fileID: 2800000, guid: f1a493455420df9449b9d4a942a13b73, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1109
+        height: 161
+    Value:
+      List:
+      - Array:
+        - {x: -1.7, y: -0.39}
+        - {x: -0.88000005, y: -0.26}
+        - {x: -1.16, y: 0.05}
+        - {x: -1.39, y: 0.09}
+        - {x: -1.89, y: -0.07}
+        - {x: -2.28, y: -0.030000001}
+        - {x: -2.17, y: -0.14}
+        - {x: -2.26, y: -0.35}
+        - {x: -1.9000001, y: -0.21}
+        - {x: -1.64, y: -0.31}
+  - Key:
+      Texture: {fileID: 2800000, guid: b87c37b5c72691e4598ecc2e8056813c, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1109
+        height: 161
+    Value:
+      List:
+      - Array:
+        - {x: -1.63, y: -0.38}
+        - {x: -0.79999995, y: -0.28}
+        - {x: -1.1, y: 0.060000002}
+        - {x: -1.47, y: 0.09}
+        - {x: -1.87, y: -0.05}
+        - {x: -2.1200001, y: 0.040000003}
+        - {x: -2.14, y: -0.29999998}
+        - {x: -1.81, y: -0.21}
+        - {x: -1.61, y: -0.35}
+  - Key:
+      Texture: {fileID: 2800000, guid: 7156971235daf1c4c96d9a4e10ab7db6, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1109
+        height: 161
+    Value:
+      List:
+      - Array:
+        - {x: -1.5600001, y: -0.38}
+        - {x: -0.73, y: -0.28}
+        - {x: -1.01, y: 0.060000002}
+        - {x: -2.14, y: -0.020000001}
+        - {x: -2.03, y: -0.13}
+        - {x: -2.1200001, y: -0.33}
+        - {x: -1.7600001, y: -0.2}
+        - {x: -1.5400001, y: -0.34}
+  - Key:
+      Texture: {fileID: 2800000, guid: 383616dada1b53441989f6b231e089f7, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1109
+        height: 161
+    Value:
+      List:
+      - Array:
+        - {x: -1.9000001, y: -0.4}
+        - {x: -1.65, y: -0.22}
+        - {x: -1.42, y: -0.27}
+        - {x: -1.49, y: -0.37}
+        - {x: -0.65999997, y: -0.27}
+        - {x: -0.95000005, y: 0.07}
+        - {x: -1.2800001, y: 0.120000005}
+        - {x: -1.6800001, y: -0.07}
+        - {x: -1.9700001, y: -0.030000001}
+        - {x: -1.9200001, y: -0.39}
+  - Key:
+      Texture: {fileID: 2800000, guid: df0a0b5a511a62c4299996a48be44785, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1109
+        height: 161
+    Value:
+      List:
+      - Array:
+        - {x: -1.42, y: -0.37}
+        - {x: -0.59000003, y: -0.27}
+        - {x: -0.9, y: 0.080000006}
+        - {x: -2, y: -0.010000001}
+        - {x: -1.89, y: -0.120000005}
+        - {x: -1.9800001, y: -0.32000002}
+        - {x: -1.5999999, y: -0.19}
+        - {x: -1.37, y: -0.27}
+        - {x: -1.41, y: -0.35}
+  - Key:
+      Texture: {fileID: 2800000, guid: 70c93f433caba3b4882c3b7c196184c3, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1109
+        height: 161
+    Value:
+      List:
+      - Array:
+        - {x: -1.35, y: -0.36}
+        - {x: -0.52, y: -0.26}
+        - {x: -0.81, y: 0.080000006}
+        - {x: -1.2, y: 0.11}
+        - {x: -1.5899999, y: -0.030000001}
+        - {x: -1.84, y: 0.060000002}
+        - {x: -1.84, y: -0.29}
+        - {x: -1.5600001, y: -0.18}
+        - {x: -1.3000001, y: -0.27}
+        - {x: -1.34, y: -0.34}
+  - Key:
+      Texture: {fileID: 2800000, guid: 58946e081207034489abbaea8416bc45, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1109
+        height: 161
+    Value:
+      List:
+      - Array:
+        - {x: -1.2800001, y: -0.36}
+        - {x: -0.45, y: -0.26}
+        - {x: -0.73, y: 0.080000006}
+        - {x: -1.86, y: 0}
+        - {x: -1.7500001, y: -0.11}
+        - {x: -1.84, y: -0.31}
+        - {x: -1.48, y: -0.18}
+        - {x: -1.23, y: -0.26}
+        - {x: -1.27, y: -0.34}
+  - Key:
+      Texture: {fileID: 2800000, guid: 26b546212bd863b4e8c55b3c2ac52083, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1109
+        height: 161
+    Value:
+      List:
+      - Array:
+        - {x: -1.62, y: -0.38}
+        - {x: -1.36, y: -0.2}
+        - {x: -1.14, y: -0.25}
+        - {x: -1.21, y: -0.35}
+        - {x: -0.38000003, y: -0.26}
+        - {x: -0.65999997, y: 0.080000006}
+        - {x: -1.0500001, y: 0.13}
+        - {x: -1.38, y: -0.05}
+        - {x: -1.7, y: -0.020000001}
+        - {x: -1.5999999, y: -0.14999999}
+        - {x: -1.65, y: -0.36}
+  - Key:
+      Texture: {fileID: 2800000, guid: 4c3c0163297cf7149a8e76c54f83c8eb, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1109
+        height: 161
+    Value:
+      List:
+      - Array:
+        - {x: -1.14, y: -0.35}
+        - {x: -0.31, y: -0.26}
+        - {x: -0.6, y: 0.09}
+        - {x: -1.71, y: 0.020000001}
+        - {x: -1.61, y: -0.1}
+        - {x: -1.6700001, y: -0.32000002}
+        - {x: -1.33, y: -0.17}
+        - {x: -1.12, y: -0.32000002}
+  - Key:
+      Texture: {fileID: 2800000, guid: f37dc1479985d00458b0d23f05fb51f2, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1109
+        height: 161
+    Value:
+      List:
+      - Array:
+        - {x: -1.07, y: -0.35}
+        - {x: -0.24000001, y: -0.23000002}
+        - {x: -0.52, y: 0.09}
+        - {x: -0.93, y: 0.120000005}
+        - {x: -1.2900001, y: -0.010000001}
+        - {x: -1.5600001, y: 0.07}
+        - {x: -1.5799999, y: -0.26}
+        - {x: -1.25, y: -0.17}
+        - {x: -1.0600001, y: -0.33}
+  - Key:
+      Texture: {fileID: 2800000, guid: 86178f155652db845942794e8f36a9ea, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1109
+        height: 161
+    Value:
+      List:
+      - Array:
+        - {x: -1, y: -0.35}
+        - {x: -0.17, y: -0.25}
+        - {x: -0.48000002, y: 0.1}
+        - {x: -1.5799999, y: 0.010000001}
+        - {x: -1.47, y: -0.1}
+        - {x: -1.5600001, y: -0.29999998}
+        - {x: -1.1700001, y: -0.17}
+        - {x: -0.94, y: -0.25}
+        - {x: -0.99000007, y: -0.33}
+  - Key:
+      Texture: {fileID: 2800000, guid: 1ce779c00058a3149844d3c318a05461, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1109
+        height: 161
+    Value:
+      List:
+      - Array:
+        - {x: -1.34, y: -0.37}
+        - {x: -1.08, y: -0.19}
+        - {x: -0.85, y: -0.25}
+        - {x: -0.93, y: -0.35}
+        - {x: -0.099999994, y: -0.25}
+        - {x: -0.36, y: 0.080000006}
+        - {x: -0.77000004, y: 0.14}
+        - {x: -1.1, y: -0.040000003}
+        - {x: -1.42, y: -0.010000001}
+        - {x: -1.36, y: -0.36}
+  - Key:
+      Texture: {fileID: 2800000, guid: 5dd15dc82e9a96f499e416743d0b051c, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1109
+        height: 161
+    Value:
+      List:
+      - Array:
+        - {x: -0.86, y: -0.34}
+        - {x: -0.030000001, y: -0.22}
+        - {x: -0.29, y: 0.080000006}
+        - {x: -0.56, y: 0.14}
+        - {x: -1.04, y: -0.020000001}
+        - {x: -1.44, y: 0.010000001}
+        - {x: -1.3199999, y: -0.1}
+        - {x: -1.39, y: -0.31}
+        - {x: -1.07, y: -0.17}
+        - {x: -0.78999996, y: -0.26}
+  - Key:
+      Texture: {fileID: 2800000, guid: bd335ca2e3ab9ea48ac0ee1a13b8b856, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1109
+        height: 161
+    Value:
+      List:
+      - Array:
+        - {x: -0.78999996, y: -0.34}
+        - {x: 0.040000003, y: -0.22}
+        - {x: -0.25, y: 0.1}
+        - {x: -0.62, y: 0.13}
+        - {x: -1.02, y: -0.010000001}
+        - {x: -1.2800001, y: 0.080000006}
+        - {x: -1.3000001, y: -0.25}
+        - {x: -0.99000007, y: -0.16000001}
+        - {x: -0.72, y: -0.26}
+  - Key:
+      Texture: {fileID: 2800000, guid: 7b416d73d64f1a947ba52fbd381f3ea7, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1109
+        height: 161
+    Value:
+      List:
+      - Array:
+        - {x: -0.72, y: -0.34}
+        - {x: 0.11000001, y: -0.22}
+        - {x: -0.15, y: 0.080000006}
+        - {x: -0.41, y: 0.14}
+        - {x: -0.9, y: -0.020000001}
+        - {x: -1.3000001, y: 0.010000001}
+        - {x: -1.1800001, y: -0.1}
+        - {x: -1.25, y: -0.31}
+        - {x: -0.93, y: -0.17}
+        - {x: -0.65000004, y: -0.26}
+  - Key:
+      Texture: {fileID: 2800000, guid: 6bbecddf3a0a90a48b1fd6ac39fa0aa8, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1109
+        height: 161
+    Value:
+      List:
+      - Array:
+        - {x: -1.0600001, y: -0.37}
+        - {x: -0.79999995, y: -0.19}
+        - {x: -0.57, y: -0.24000001}
+        - {x: -0.65000004, y: -0.34}
+        - {x: 0.18, y: -0.22}
+        - {x: -0.11000001, y: 0.1}
+        - {x: -0.39999998, y: 0.14999999}
+        - {x: -0.82, y: -0.040000003}
+        - {x: -1.14, y: -0.010000001}
+        - {x: -1.04, y: -0.13}
+        - {x: -1.09, y: -0.35}
+  - Key:
+      Texture: {fileID: 2800000, guid: d6db735a835115e4bae92ae1c5eebe79, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1109
+        height: 161
+    Value:
+      List:
+      - Array:
+        - {x: -0.58, y: -0.34}
+        - {x: 0.25, y: -0.22}
+        - {x: -0.010000001, y: 0.080000006}
+        - {x: -0.29, y: 0.14}
+        - {x: -0.78999996, y: -0.030000001}
+        - {x: -1.16, y: 0}
+        - {x: -1.04, y: -0.1}
+        - {x: -1.11, y: -0.31}
+        - {x: -0.78999996, y: -0.17}
+        - {x: -0.53000003, y: -0.28}
+  - Key:
+      Texture: {fileID: 2800000, guid: c99c697e6e804544cad55a3859125068, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1109
+        height: 161
+    Value:
+      List:
+      - Array:
+        - {x: -0.5, y: -0.35}
+        - {x: 0.32000002, y: -0.22}
+        - {x: 0.010000001, y: 0.1}
+        - {x: -0.73, y: -0.010000001}
+        - {x: -1, y: 0.07}
+        - {x: -1.01, y: -0.26}
+        - {x: -0.69, y: -0.17}
+        - {x: -0.49, y: -0.32000002}
+  - Key:
+      Texture: {fileID: 2800000, guid: dfbcd3b197639394587f8e0a3ee9d44f, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1109
+        height: 161
+    Value:
+      List:
+      - Array:
+        - {x: -0.43, y: -0.35}
+        - {x: 0.39000002, y: -0.22}
+        - {x: 0.13, y: 0.080000006}
+        - {x: -0.16000001, y: 0.14}
+        - {x: -0.64000005, y: -0.030000001}
+        - {x: -1.02, y: 0}
+        - {x: -0.9, y: -0.1}
+        - {x: -0.99000007, y: -0.29999998}
+        - {x: -0.63, y: -0.17}
+        - {x: -0.42000002, y: -0.32000002}
+  - Key:
+      Texture: {fileID: 2800000, guid: 52246f7cf5a464d4fa2d0b1b1a1c85c0, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1109
+        height: 161
+    Value:
+      List:
+      - Array:
+        - {x: -0.76000005, y: -0.38}
+        - {x: -0.51, y: -0.19}
+        - {x: -0.29, y: -0.26}
+        - {x: -0.36, y: -0.35}
+        - {x: 0.46, y: -0.22}
+        - {x: 0.18, y: 0.09}
+        - {x: -0.17, y: 0.14}
+        - {x: -0.57, y: -0.05}
+        - {x: -0.85, y: -0.010000001}
+        - {x: -0.78999996, y: -0.37}
+  - Key:
+      Texture: {fileID: 2800000, guid: d9fc415a7dbc9ed45b2199a58aed4712, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1109
+        height: 161
+    Value:
+      List:
+      - Array:
+        - {x: -0.29, y: -0.35}
+        - {x: 0.53000003, y: -0.22}
+        - {x: 0.26, y: 0.080000006}
+        - {x: 0.010000001, y: 0.13}
+        - {x: -0.48000002, y: -0.030000001}
+        - {x: -0.88000005, y: -0.010000001}
+        - {x: -0.76000005, y: -0.11}
+        - {x: -0.83, y: -0.32000002}
+        - {x: -0.51, y: -0.18}
+        - {x: -0.26, y: -0.29999998}
+  - Key:
+      Texture: {fileID: 2800000, guid: 8e50eaee7db8f234f9d6fb26e8026718, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1109
+        height: 161
+    Value:
+      List:
+      - Array:
+        - {x: -0.22000001, y: -0.36}
+        - {x: 0.61, y: -0.25}
+        - {x: 0.3, y: 0.09}
+        - {x: -0.45, y: -0.020000001}
+        - {x: -0.71, y: 0.07}
+        - {x: -0.73, y: -0.27}
+        - {x: -0.41, y: -0.18}
+        - {x: -0.21000001, y: -0.33}
+  - Key:
+      Texture: {fileID: 2800000, guid: 955fec51c94fb0f49a90b5780b7ada87, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1109
+        height: 161
+    Value:
+      List:
+      - Array:
+        - {x: -0.15, y: -0.36}
+        - {x: 0.67, y: -0.23000002}
+        - {x: 0.41, y: 0.07}
+        - {x: 0.18, y: 0.120000005}
+        - {x: -0.74, y: -0.020000001}
+        - {x: -0.62, y: -0.11}
+        - {x: -0.72, y: -0.31}
+        - {x: -0.35, y: -0.18}
+        - {x: -0.120000005, y: -0.31}
+  - Key:
+      Texture: {fileID: 2800000, guid: d0610f79dac4e30459786525d38c35f8, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1109
+        height: 161
+    Value:
+      List:
+      - Array:
+        - {x: -0.49, y: -0.39}
+        - {x: -0.24000001, y: -0.21}
+        - {x: -0.010000001, y: -0.26}
+        - {x: -0.080000006, y: -0.36}
+        - {x: 0.75, y: -0.26}
+        - {x: 0.47, y: 0.07}
+        - {x: 0.16000001, y: 0.13}
+        - {x: -0.26, y: -0.060000002}
+        - {x: -0.56, y: -0.020000001}
+        - {x: -0.51, y: -0.38}
+  - Key:
+      Texture: {fileID: 2800000, guid: 4851d530aeee7ec42aa743e1e41542ef, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1109
+        height: 161
+    Value:
+      List:
+      - Array:
+        - {x: -0.010000001, y: -0.37}
+        - {x: 0.81, y: -0.23000002}
+        - {x: 0.55, y: 0.060000002}
+        - {x: 0.26, y: 0.120000005}
+        - {x: -0.22000001, y: -0.05}
+        - {x: -0.6, y: -0.020000001}
+        - {x: -0.48000002, y: -0.120000005}
+        - {x: -0.57, y: -0.32000002}
+        - {x: -0.21000001, y: -0.19}
+        - {x: 0.010000001, y: -0.33}
+  - Key:
+      Texture: {fileID: 2800000, guid: d7aaa33b0248ef54cad6cd056fc3e64b, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1109
+        height: 161
+    Value:
+      List:
+      - Array:
+        - {x: 0.060000002, y: -0.37}
+        - {x: 0.89, y: -0.27}
+        - {x: 0.59000003, y: 0.07}
+        - {x: 0.21000001, y: 0.1}
+        - {x: -0.18, y: -0.040000003}
+        - {x: -0.43, y: 0.05}
+        - {x: -0.46, y: -0.28}
+        - {x: -0.15, y: -0.19}
+        - {x: 0.11000001, y: -0.28}
+        - {x: 0.07, y: -0.35}
+  - Key:
+      Texture: {fileID: 2800000, guid: bb482398349305540b393c5d97135ae7, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1109
+        height: 161
+    Value:
+      List:
+      - Array:
+        - {x: 0.13, y: -0.38}
+        - {x: 0.95000005, y: -0.24000001}
+        - {x: 0.69, y: 0.05}
+        - {x: 0.39999998, y: 0.11}
+        - {x: -0.080000006, y: -0.060000002}
+        - {x: -0.46, y: -0.030000001}
+        - {x: -0.34, y: -0.13}
+        - {x: -0.43, y: -0.33}
+        - {x: -0.07, y: -0.2}
+        - {x: 0.15, y: -0.34}
+  - Key:
+      Texture: {fileID: 2800000, guid: 43ed460ef3aea6d4db65cfa8fd218743, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1109
+        height: 161
+    Value:
+      List:
+      - Array:
+        - {x: -0.21000001, y: -0.40999997}
+        - {x: 0.040000003, y: -0.23000002}
+        - {x: 0.27, y: -0.28}
+        - {x: 0.19999999, y: -0.38}
+        - {x: 1.03, y: -0.28}
+        - {x: 0.75, y: 0.05}
+        - {x: 0.44000003, y: 0.11}
+        - {x: 0.020000001, y: -0.080000006}
+        - {x: -0.28, y: -0.040000003}
+        - {x: -0.23, y: -0.4}
+  - Key:
+      Texture: {fileID: 2800000, guid: 33504c231774c85428a3e1e923fb288c, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1109
+        height: 161
+    Value:
+      List:
+      - Array:
+        - {x: 0.27, y: -0.39}
+        - {x: 1.09, y: -0.26}
+        - {x: 0.83, y: 0.040000003}
+        - {x: 0.6, y: 0.09}
+        - {x: -0.32000002, y: -0.05}
+        - {x: -0.19999999, y: -0.14}
+        - {x: -0.3, y: -0.34}
+        - {x: 0.07, y: -0.21}
+        - {x: 0.3, y: -0.34}
+  - Key:
+      Texture: {fileID: 2800000, guid: 2c3407a054816f24699a3b34b7add36a, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1109
+        height: 161
+    Value:
+      List:
+      - Array:
+        - {x: 0.34, y: -0.4}
+        - {x: 1.1700001, y: -0.29}
+        - {x: 0.86, y: 0.05}
+        - {x: 0.11000001, y: -0.060000002}
+        - {x: -0.15, y: 0.030000001}
+        - {x: -0.17, y: -0.31}
+        - {x: 0.15, y: -0.22}
+        - {x: 0.35, y: -0.37}
+  - Key:
+      Texture: {fileID: 2800000, guid: 1e75cf6dafa72824dbb858d09230a411, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1109
+        height: 161
+    Value:
+      List:
+      - Array:
+        - {x: 0.41, y: -0.4}
+        - {x: 1.24, y: -0.29999998}
+        - {x: 0.96000004, y: 0.030000001}
+        - {x: 0.72, y: 0.080000006}
+        - {x: 0.22000001, y: -0.080000006}
+        - {x: -0.18, y: -0.060000002}
+        - {x: -0.060000002, y: -0.16000001}
+        - {x: -0.13, y: -0.37}
+        - {x: 0.19000001, y: -0.23000002}
+        - {x: 0.44000003, y: -0.35}
+  - Key:
+      Texture: {fileID: 2800000, guid: cc19f566f31bbbc49b6b9ad91fb78d00, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1109
+        height: 161
+    Value:
+      List:
+      - Array:
+        - {x: 0.55, y: -0.42}
+        - {x: 1.37, y: -0.29}
+        - {x: 1.11, y: 0.010000001}
+        - {x: 0.82, y: 0.07}
+        - {x: 0.34, y: -0.1}
+        - {x: -0.040000003, y: -0.07}
+        - {x: 0.080000006, y: -0.17}
+        - {x: -0.010000001, y: -0.37}
+        - {x: 0.37, y: -0.24000001}
+        - {x: 0.57, y: -0.38}
+  - Key:
+      Texture: {fileID: 2800000, guid: aad8e3f86ab58a94583ed99be21c1d8d, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1109
+        height: 161
+    Value:
+      List:
+      - Array:
+        - {x: 0.62, y: -0.43}
+        - {x: 1.44, y: -0.29}
+        - {x: 1.14, y: 0.020000001}
+        - {x: 0.38000003, y: -0.09}
+        - {x: 0.120000005, y: -0.010000001}
+        - {x: 0.099999994, y: -0.33}
+        - {x: 0.43, y: -0.25}
+        - {x: 0.63, y: -0.4}
+  - Key:
+      Texture: {fileID: 2800000, guid: 9d54a8bb191c849439ab6a127753e3b1, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1109
+        height: 161
+    Value:
+      List:
+      - Array:
+        - {x: 0.68, y: -0.43}
+        - {x: 1.5100001, y: -0.31}
+        - {x: 1.25, y: -0.010000001}
+        - {x: 0.99000007, y: 0.05}
+        - {x: 0.5, y: -0.11}
+        - {x: 0.099999994, y: -0.080000006}
+        - {x: 0.22000001, y: -0.19}
+        - {x: 0.15, y: -0.4}
+        - {x: 0.47, y: -0.26}
+        - {x: 0.75, y: -0.35}
+  - Key:
+      Texture: {fileID: 2800000, guid: 44d3612a80d923d4ab823fc4d0c0465d, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1109
+        height: 161
+    Value:
+      List:
+      - Array:
+        - {x: 0.35, y: -0.47}
+        - {x: 0.61, y: -0.28}
+        - {x: 0.83, y: -0.35}
+        - {x: 0.75, y: -0.44}
+        - {x: 1.5799999, y: -0.31}
+        - {x: 1.2900001, y: 0}
+        - {x: 0.96000004, y: 0.05}
+        - {x: 0.57, y: -0.14}
+        - {x: 0.26, y: -0.11}
+        - {x: 0.32999998, y: -0.46000004}
+      - Array:
+        - {x: 0.94, y: 0.7}
+        - {x: 1.02, y: 0.7}
+        - {x: 1, y: 0.71}
+  - Key:
+      Texture: {fileID: 2800000, guid: ba7217d36272d7e4685cde523fd6fbef, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1109
+        height: 161
+    Value:
+      List:
+      - Array:
+        - {x: 0.82, y: -0.45000002}
+        - {x: 1.65, y: -0.33}
+        - {x: 1.37, y: -0.010000001}
+        - {x: 1.15, y: 0.030000001}
+        - {x: 0.63, y: -0.13}
+        - {x: 0.24000001, y: -0.1}
+        - {x: 0.36, y: -0.21}
+        - {x: 0.29, y: -0.42}
+        - {x: 0.63, y: -0.27}
+        - {x: 0.89, y: -0.37}
+  - Key:
+      Texture: {fileID: 2800000, guid: 39ed0af79ccffa043b60ee5e077b5c91, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1109
+        height: 161
+    Value:
+      List:
+      - Array:
+        - {x: 0.89, y: -0.46000004}
+        - {x: 1.72, y: -0.33}
+        - {x: 1.44, y: -0.020000001}
+        - {x: 1.04, y: 0.010000001}
+        - {x: 0.68, y: -0.120000005}
+        - {x: 0.39999998, y: -0.040000003}
+        - {x: 0.38000003, y: -0.37}
+        - {x: 0.71, y: -0.28}
+        - {x: 0.90999997, y: -0.43}
+      - Array:
+        - {x: 0.71, y: -0.1}
+        - {x: 0.39999998, y: -0.040000003}
+        - {x: 0.38000003, y: -0.37}
+        - {x: 0.67, y: -0.28}
+        - {x: 0.95000005, y: -0.37}
+        - {x: 0.89, y: -0.46000004}
+        - {x: 1.72, y: -0.37}
+        - {x: 1.44, y: -0.020000001}
+        - {x: 0.77000004, y: -0.09}
+  - Key:
+      Texture: {fileID: 2800000, guid: 5035618bdb4e62d40b146a71c534aa46, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1109
+        height: 161
+    Value:
+      List:
+      - Array:
+        - {x: 0.96000004, y: -0.47}
+        - {x: 1.79, y: -0.35}
+        - {x: 1.5100001, y: -0.030000001}
+        - {x: 0.39000002, y: -0.1}
+        - {x: 0.5, y: -0.23000002}
+        - {x: 0.39999998, y: -0.42}
+        - {x: 0.77000004, y: -0.29}
+        - {x: 0.98, y: -0.44}
+  - Key:
+      Texture: {fileID: 2800000, guid: cd7f3787ae521b8459036bbfc6cfcd4b, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1109
+        height: 161
+    Value:
+      List:
+      - Array:
+        - {x: 0.63, y: -0.51}
+        - {x: 0.89, y: -0.32000002}
+        - {x: 1.11, y: -0.39}
+        - {x: 1.03, y: -0.48000002}
+        - {x: 1.86, y: -0.36}
+        - {x: 1.5799999, y: -0.040000003}
+        - {x: 1.21, y: 0.010000001}
+        - {x: 0.87000006, y: -0.17}
+        - {x: 0.55, y: -0.14}
+        - {x: 0.59000003, y: -0.48000002}
+  - Key:
+      Texture: {fileID: 2800000, guid: 77d2d056d26c79b4185c6a9999800bd1, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1109
+        height: 161
+    Value:
+      List:
+      - Array:
+        - {x: 1.1, y: -0.48999998}
+        - {x: 1.9300001, y: -0.39}
+        - {x: 1.64, y: -0.05}
+        - {x: 0.52, y: -0.13}
+        - {x: 0.63, y: -0.24000001}
+        - {x: 0.58, y: -0.46000004}
+        - {x: 0.90999997, y: -0.31}
+        - {x: 1.1700001, y: -0.40999997}
+  - Key:
+      Texture: {fileID: 2800000, guid: 971b2bb6ab90dc24d9cf9d02bfaa8384, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1109
+        height: 161
+    Value:
+      List:
+      - Array:
+        - {x: 1.1700001, y: -0.5}
+        - {x: 2, y: -0.4}
+        - {x: 1.71, y: -0.060000002}
+        - {x: 1.31, y: -0.030000001}
+        - {x: 0.95000005, y: -0.16000001}
+        - {x: 0.68, y: -0.080000006}
+        - {x: 0.67, y: -0.42}
+        - {x: 0.99000007, y: -0.32000002}
+        - {x: 1.1800001, y: -0.48000002}
+  - Key:
+      Texture: {fileID: 2800000, guid: b6d4ea913fc0e9644b1b36b1b10f0399, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1109
+        height: 161
+    Value:
+      List:
+      - Array:
+        - {x: 1.24, y: -0.51}
+        - {x: 2.07, y: -0.40999997}
+        - {x: 1.78, y: -0.07}
+        - {x: 0.65999997, y: -0.14999999}
+        - {x: 0.77000004, y: -0.26}
+        - {x: 0.69, y: -0.47}
+        - {x: 1.0500001, y: -0.33}
+        - {x: 1.25, y: -0.48999998}
+  - Key:
+      Texture: {fileID: 2800000, guid: 4d5f8639f579c734e81d90f35f520573, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1109
+        height: 161
+    Value:
+      List:
+      - Array:
+        - {x: 0.9, y: -0.55}
+        - {x: 1.15, y: -0.37}
+        - {x: 1.38, y: -0.42}
+        - {x: 1.31, y: -0.52}
+        - {x: 2.14, y: -0.42}
+        - {x: 1.86, y: -0.09}
+        - {x: 1.5200001, y: -0.030000001}
+        - {x: 1.12, y: -0.22}
+        - {x: 0.83, y: -0.18}
+        - {x: 0.88000005, y: -0.54}
+  - Key:
+      Texture: {fileID: 2800000, guid: fafa476dbb5332e4c91b63a1bcdbf5d8, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1109
+        height: 161
+    Value:
+      List:
+      - Array:
+        - {x: 1.38, y: -0.53000003}
+        - {x: 2.21, y: -0.43}
+        - {x: 1.9300001, y: -0.1}
+        - {x: 1.6800001, y: -0.05}
+        - {x: 1.19, y: -0.21}
+        - {x: 0.78999996, y: -0.19}
+        - {x: 0.90999997, y: -0.29}
+        - {x: 0.84000003, y: -0.5}
+        - {x: 1.16, y: -0.36}
+        - {x: 1.42, y: -0.47}
+  - Key:
+      Texture: {fileID: 2800000, guid: 2b4d12fe725af9b4dafb0a81717dbc81, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1109
+        height: 161
+    Value:
+      List:
+      - Array:
+        - {x: 1.45, y: -0.55}
+        - {x: 2.27, y: -0.42}
+        - {x: 1.9700001, y: -0.1}
+        - {x: 1.21, y: -0.21}
+        - {x: 0.95000005, y: -0.13}
+        - {x: 0.93, y: -0.45000002}
+        - {x: 1.26, y: -0.37}
+        - {x: 1.49, y: -0.45000002}
+        - {x: 1.45, y: -0.53000003}
+      - Array:
+        - {x: 1.44, y: -0.54}
+        - {x: 2.27, y: -0.42}
+        - {x: 1.9700001, y: -0.1}
+        - {x: 1.21, y: -0.21}
+        - {x: 0.95000005, y: -0.13}
+        - {x: 0.93, y: -0.45000002}
+        - {x: 1.26, y: -0.37}
+        - {x: 1.49, y: -0.45000002}
+        - {x: 1.45, y: -0.53000003}
+  - Key:
+      Texture: {fileID: 2800000, guid: e2c717c1bf31896499c2e3ce2da0951c, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1109
+        height: 161
+    Value:
+      List:
+      - Array:
+        - {x: 1.5100001, y: -0.56}
+        - {x: 2.3400002, y: -0.43}
+        - {x: 2.08, y: -0.13}
+        - {x: 1.85, y: -0.080000006}
+        - {x: 1.31, y: -0.24000001}
+        - {x: 0.93, y: -0.21}
+        - {x: 1.0500001, y: -0.31}
+        - {x: 0.95000005, y: -0.51}
+        - {x: 1.34, y: -0.38}
+        - {x: 1.5300001, y: -0.53000003}
+  - Key:
+      Texture: {fileID: 2800000, guid: 18a7935a784119949baaa26d314efa3a, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1109
+        height: 161
+    Value:
+      List:
+      - Array:
+        - {x: 1.1800001, y: -0.59999996}
+        - {x: 1.44, y: -0.40999997}
+        - {x: 1.66, y: -0.48000002}
+        - {x: 1.5799999, y: -0.57}
+        - {x: 2.4099998, y: -0.45000002}
+        - {x: 2.13, y: -0.13}
+        - {x: 1.7600001, y: -0.080000006}
+        - {x: 1.84, y: -0.120000005}
+        - {x: 1.42, y: -0.26}
+        - {x: 1.1, y: -0.23000002}
+        - {x: 1.14, y: -0.57}
+  - Key:
+      Texture: {fileID: 2800000, guid: fdc1f428a98c081458019c2d29bde885, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1109
+        height: 161
+    Value:
+      List:
+      - Array:
+        - {x: 1.65, y: -0.58}
+        - {x: 2.48, y: -0.48999998}
+        - {x: 2.19, y: -0.14}
+        - {x: 1.07, y: -0.23000002}
+        - {x: 1.1800001, y: -0.33}
+        - {x: 1.12, y: -0.55}
+        - {x: 1.43, y: -0.40999997}
+        - {x: 1.72, y: -0.5}
+  - Key:
+      Texture: {fileID: 2800000, guid: 887024e1fd49ad3459ffe42d7cd5931f, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1109
+        height: 161
+    Value:
+      List:
+      - Array:
+        - {x: 1.72, y: -0.59999996}
+        - {x: 2.55, y: -0.48000002}
+        - {x: 2.25, y: -0.14999999}
+        - {x: 1.49, y: -0.26}
+        - {x: 1.23, y: -0.17}
+        - {x: 1.21, y: -0.51}
+        - {x: 1.5400001, y: -0.42}
+        - {x: 1.7500001, y: -0.55}
+  - Key:
+      Texture: {fileID: 2800000, guid: 4e6aa3dfcf7c0754fb656eb6f636c8c6, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1109
+        height: 161
+    Value:
+      List:
+      - Array:
+        - {x: 1.79, y: -0.61}
+        - {x: 2.62, y: -0.51}
+        - {x: 2.3500001, y: -0.18}
+        - {x: 2.1200001, y: -0.13}
+        - {x: 1.5899999, y: -0.29}
+        - {x: 1.21, y: -0.25}
+        - {x: 1.3199999, y: -0.36}
+        - {x: 1.23, y: -0.56}
+        - {x: 1.5899999, y: -0.43}
+        - {x: 1.8199999, y: -0.56}
+  - Key:
+      Texture: {fileID: 2800000, guid: 4cd3d95b9907c054abfb39cd9ce6cafc, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1109
+        height: 161
+    Value:
+      List:
+      - Array:
+        - {x: 1.45, y: -0.65}
+        - {x: 1.71, y: -0.46000004}
+        - {x: 1.94, y: -0.53000003}
+        - {x: 1.86, y: -0.62}
+        - {x: 2.69, y: -0.52}
+        - {x: 2.4099998, y: -0.19}
+        - {x: 2.07, y: -0.13}
+        - {x: 1.6700001, y: -0.32000002}
+        - {x: 1.38, y: -0.28}
+        - {x: 1.43, y: -0.64000005}
+  - Key:
+      Texture: {fileID: 2800000, guid: 10aff4fd09905d94cad7c2c76c460180, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1109
+        height: 161
+    Value:
+      List:
+      - Array:
+        - {x: 1.9300001, y: -0.64000005}
+        - {x: 2.75, y: -0.51}
+        - {x: 2.45, y: -0.19}
+        - {x: 1.35, y: -0.27}
+        - {x: 1.46, y: -0.39}
+        - {x: 1.37, y: -0.59000003}
+        - {x: 1.7500001, y: -0.46000004}
+        - {x: 1.9800001, y: -0.54}
+        - {x: 1.9300001, y: -0.62}
+      - Array:
+        - {x: 1.9200001, y: -0.63}
+        - {x: 2.75, y: -0.51}
+        - {x: 2.45, y: -0.19}
+        - {x: 1.35, y: -0.27}
+        - {x: 1.46, y: -0.39}
+        - {x: 1.37, y: -0.59000003}
+        - {x: 1.7500001, y: -0.46000004}
+        - {x: 1.9800001, y: -0.54}
+        - {x: 1.9300001, y: -0.62}
+  - Key:
+      Texture: {fileID: 2800000, guid: ac3df90da156e304dabed00c7e13af8b, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1109
+        height: 161
+    Value:
+      List:
+      - Array:
+        - {x: 1.9899999, y: -0.65}
+        - {x: 2.82, y: -0.52}
+        - {x: 2.54, y: -0.21}
+        - {x: 2.14, y: -0.18}
+        - {x: 1.78, y: -0.31}
+        - {x: 1.5, y: -0.23000002}
+        - {x: 1.48, y: -0.56}
+        - {x: 1.81, y: -0.47}
+        - {x: 2.01, y: -0.62}
+      - Array:
+        - {x: 1.81, y: -0.29}
+        - {x: 1.5, y: -0.23000002}
+        - {x: 1.48, y: -0.56}
+        - {x: 1.7700001, y: -0.47}
+        - {x: 2.05, y: -0.56}
+        - {x: 1.9899999, y: -0.65}
+        - {x: 2.82, y: -0.56}
+        - {x: 2.54, y: -0.21}
+        - {x: 1.87, y: -0.28}
+  - Key:
+      Texture: {fileID: 2800000, guid: 9ea851fa7c07c0e40b7a592fa69fa91d, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1109
+        height: 161
+    Value:
+      List:
+      - Array:
+        - {x: 2.06, y: -0.66}
+        - {x: 2.89, y: -0.57}
+        - {x: 2.5900002, y: -0.22}
+        - {x: 1.48, y: -0.31}
+        - {x: 1.5899999, y: -0.40999997}
+        - {x: 1.5, y: -0.62}
+        - {x: 1.89, y: -0.48999998}
+        - {x: 2.08, y: -0.63}
+  - Key:
+      Texture: {fileID: 2800000, guid: ab8428994ad520046a9a8d17a28d9653, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1109
+        height: 161
+    Value:
+      List:
+      - Array:
+        - {x: 1.7400001, y: -0.71}
+        - {x: 1.9800001, y: -0.52}
+        - {x: 2.2, y: -0.58}
+        - {x: 2.13, y: -0.68}
+        - {x: 2.96, y: -0.58}
+        - {x: 2.68, y: -0.24000001}
+        - {x: 2.29, y: -0.19}
+        - {x: 1.96, y: -0.37}
+        - {x: 1.65, y: -0.34}
+        - {x: 1.69, y: -0.69}
+  - Key:
+      Texture: {fileID: 2800000, guid: 8fdd747aebad18146baa442128f79310, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1109
+        height: 161
+    Value:
+      List:
+      - Array:
+        - {x: 2.2, y: -0.69}
+        - {x: 3.03, y: -0.59000003}
+        - {x: 2.73, y: -0.25}
+        - {x: 1.62, y: -0.33}
+        - {x: 1.73, y: -0.45000002}
+        - {x: 1.64, y: -0.65}
+        - {x: 2.03, y: -0.52}
+        - {x: 2.22, y: -0.66}
+  - Key:
+      Texture: {fileID: 2800000, guid: a17e6c9a9be1a6c438970df23154c440, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1109
+        height: 161
+    Value:
+      List:
+      - Array:
+        - {x: 2.27, y: -0.71}
+        - {x: 3.09, y: -0.57}
+        - {x: 2.82, y: -0.27}
+        - {x: 2.4099998, y: -0.24000001}
+        - {x: 2.04, y: -0.37}
+        - {x: 1.78, y: -0.28}
+        - {x: 1.7600001, y: -0.62}
+        - {x: 2.08, y: -0.53000003}
+        - {x: 2.3, y: -0.66}
+  - Key:
+      Texture: {fileID: 2800000, guid: 8de8b213db8612740939f1548f330e52, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1109
+        height: 161
+    Value:
+      List:
+      - Array:
+        - {x: 2.3400002, y: -0.72}
+        - {x: 3.17, y: -0.62}
+        - {x: 2.88, y: -0.28}
+        - {x: 1.7600001, y: -0.36}
+        - {x: 1.87, y: -0.47}
+        - {x: 1.81, y: -0.69}
+        - {x: 2.14, y: -0.54}
+        - {x: 2.3700001, y: -0.67}
+  - Key:
+      Texture: {fileID: 2800000, guid: ac0652d184a25d04e8b273d9b65c861b, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1109
+        height: 161
+    Value:
+      List:
+      - Array:
+        - {x: 2, y: -0.76}
+        - {x: 2.27, y: -0.57}
+        - {x: 2.49, y: -0.64000005}
+        - {x: 2.4099998, y: -0.73}
+        - {x: 3.24, y: -0.63}
+        - {x: 2.9499998, y: -0.29}
+        - {x: 2.6100001, y: -0.24000001}
+        - {x: 2.22, y: -0.43}
+        - {x: 1.9300001, y: -0.39}
+        - {x: 1.9800001, y: -0.75}
+      - Array:
+        - {x: 2.5900002, y: 0.40999997}
+        - {x: 2.67, y: 0.42}
+  - Key:
+      Texture: {fileID: 2800000, guid: 37aced5de421bbf40af898d29cbcda81, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1109
+        height: 161
+    Value:
+      List:
+      - Array:
+        - {x: 2.48, y: -0.74}
+        - {x: 3.3100002, y: -0.64000005}
+        - {x: 3.0200002, y: -0.29999998}
+        - {x: 1.9000001, y: -0.38}
+        - {x: 2.01, y: -0.48999998}
+        - {x: 1.9300001, y: -0.7}
+        - {x: 2.29, y: -0.56}
+        - {x: 2.52, y: -0.64000005}
+        - {x: 2.49, y: -0.72}
+  - Key:
+      Texture: {fileID: 2800000, guid: 4d49af97dcc4c7d40895ca0211a5de4e, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1109
+        height: 161
+    Value:
+      List:
+      - Array:
+        - {x: 2.55, y: -0.75}
+        - {x: 3.38, y: -0.65}
+        - {x: 3.1000001, y: -0.31}
+        - {x: 2.69, y: -0.28}
+        - {x: 2.3300002, y: -0.40999997}
+        - {x: 2.06, y: -0.33}
+        - {x: 2.07, y: -0.68}
+        - {x: 2.3300002, y: -0.57}
+        - {x: 2.6100001, y: -0.67}
+  - Key:
+      Texture: {fileID: 2800000, guid: d5e0d11142b8c594a96201e7ebd63417, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1109
+        height: 161
+    Value:
+      List:
+      - Array:
+        - {x: 2.62, y: -0.76}
+        - {x: 3.45, y: -0.66}
+        - {x: 3.15, y: -0.31}
+        - {x: 2.04, y: -0.4}
+        - {x: 2.15, y: -0.51}
+        - {x: 2.06, y: -0.71}
+        - {x: 2.4099998, y: -0.58}
+        - {x: 2.65, y: -0.71}
+  - Key:
+      Texture: {fileID: 2800000, guid: 31fecd4b1c076d1458ffa4cbe0f09bc0, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1109
+        height: 161
+    Value:
+      List:
+      - Array:
+        - {x: 2.29, y: -0.79}
+        - {x: 2.55, y: -0.59999996}
+        - {x: 2.77, y: -0.67}
+        - {x: 2.69, y: -0.76}
+        - {x: 3.5200002, y: -0.67}
+        - {x: 3.23, y: -0.32000002}
+        - {x: 2.91, y: -0.27}
+        - {x: 2.5, y: -0.46000004}
+        - {x: 2.21, y: -0.42}
+        - {x: 2.25, y: -0.77000004}
+      - Array:
+        - {x: 2.88, y: 0.38}
+        - {x: 2.9499998, y: 0.39}
+  - Key:
+      Texture: {fileID: 2800000, guid: f991a588fbe885b459520932272105e5, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1109
+        height: 161
+    Value:
+      List:
+      - Array:
+        - {x: 2.77, y: -0.77000004}
+        - {x: 3.5900002, y: -0.64000005}
+        - {x: 3.3300002, y: -0.34}
+        - {x: 3.05, y: -0.28}
+        - {x: 2.55, y: -0.45000002}
+        - {x: 2.18, y: -0.40999997}
+        - {x: 2.3, y: -0.52}
+        - {x: 2.2, y: -0.72}
+        - {x: 2.5900002, y: -0.59000003}
+        - {x: 2.82, y: -0.67}
+        - {x: 2.77, y: -0.75}
+      - Array:
+        - {x: 2.76, y: -0.76}
+        - {x: 3.5900002, y: -0.64000005}
+        - {x: 3.3300002, y: -0.34}
+        - {x: 3.05, y: -0.28}
+        - {x: 2.55, y: -0.45000002}
+        - {x: 2.18, y: -0.40999997}
+        - {x: 2.3, y: -0.52}
+        - {x: 2.2, y: -0.72}
+        - {x: 2.5900002, y: -0.59000003}
+        - {x: 2.82, y: -0.67}
+        - {x: 2.77, y: -0.75}
+  - Key:
+      Texture: {fileID: 2800000, guid: d6849fafae1c18a4785ae348e8e3ff50, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1109
+        height: 161
+    Value:
+      List:
+      - Array:
+        - {x: 2.8300002, y: -0.77000004}
+        - {x: 3.6599998, y: -0.64000005}
+        - {x: 3.38, y: -0.33}
+        - {x: 2.98, y: -0.29999998}
+        - {x: 2.6100001, y: -0.43}
+        - {x: 2.3400002, y: -0.35}
+        - {x: 2.32, y: -0.68}
+        - {x: 2.65, y: -0.59000003}
+        - {x: 2.8500001, y: -0.74}
+  - Key:
+      Texture: {fileID: 2800000, guid: 360b64f8a4b11774cacbc59d5be50a8e, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1109
+        height: 161
+    Value:
+      List:
+      - Array:
+        - {x: 2.9, y: -0.77000004}
+        - {x: 3.7300003, y: -0.64000005}
+        - {x: 3.45, y: -0.33}
+        - {x: 3.23, y: -0.29}
+        - {x: 2.71, y: -0.45000002}
+        - {x: 2.32, y: -0.42}
+        - {x: 2.44, y: -0.53000003}
+        - {x: 2.38, y: -0.74}
+        - {x: 2.71, y: -0.59000003}
+        - {x: 2.9699998, y: -0.69}
+  - Key:
+      Texture: {fileID: 2800000, guid: 0ea97adcc7b1a854092ea938df720d26, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1109
+        height: 161
+    Value:
+      List:
+      - Array:
+        - {x: 2.5700002, y: -0.8}
+        - {x: 2.8300002, y: -0.61}
+        - {x: 3.05, y: -0.68}
+        - {x: 2.98, y: -0.77000004}
+        - {x: 3.8000002, y: -0.64000005}
+        - {x: 3.5200002, y: -0.33}
+        - {x: 3.13, y: -0.29}
+        - {x: 2.7900002, y: -0.47}
+        - {x: 2.48, y: -0.44}
+        - {x: 2.55, y: -0.79}
+      - Array:
+        - {x: 3.1599998, y: 0.37}
+        - {x: 3.2500002, y: 0.37}
+        - {x: 3.23, y: 0.38}
+  - Key:
+      Texture: {fileID: 2800000, guid: abf651dd95ffe454f9e96016ddeaa9c5, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1109
+        height: 161
+    Value:
+      List:
+      - Array:
+        - {x: 3.05, y: -0.77000004}
+        - {x: 3.87, y: -0.64000005}
+        - {x: 3.5900002, y: -0.33}
+        - {x: 3.3600001, y: -0.29}
+        - {x: 2.86, y: -0.45000002}
+        - {x: 2.46, y: -0.43}
+        - {x: 2.5800002, y: -0.53000003}
+        - {x: 2.52, y: -0.74}
+        - {x: 2.8500001, y: -0.59000003}
+        - {x: 3.1100001, y: -0.69}
+  - Key:
+      Texture: {fileID: 2800000, guid: 370562dd34cd31a4287970ef9c14e5c0, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1109
+        height: 161
+    Value:
+      List:
+      - Array:
+        - {x: 3.1200001, y: -0.77000004}
+        - {x: 3.9400003, y: -0.64000005}
+        - {x: 3.6599998, y: -0.33}
+        - {x: 3.26, y: -0.29999998}
+        - {x: 2.9, y: -0.43}
+        - {x: 2.6299999, y: -0.35}
+        - {x: 2.6100001, y: -0.68}
+        - {x: 2.9299998, y: -0.59000003}
+        - {x: 3.15, y: -0.72}
+  - Key:
+      Texture: {fileID: 2800000, guid: c9ecb9deefeabfa41afdd1d582f409a9, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1109
+        height: 161
+    Value:
+      List:
+      - Array:
+        - {x: 3.19, y: -0.77000004}
+        - {x: 4.02, y: -0.67}
+        - {x: 3.74, y: -0.33}
+        - {x: 2.6100001, y: -0.40999997}
+        - {x: 2.72, y: -0.52}
+        - {x: 2.6299999, y: -0.72}
+        - {x: 2.99, y: -0.59000003}
+        - {x: 3.21, y: -0.73}
+  - Key:
+      Texture: {fileID: 2800000, guid: 3e63ac1146cf74b4a9abe3eed97df739, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1109
+        height: 161
+    Value:
+      List:
+      - Array:
+        - {x: 2.84, y: -0.79}
+        - {x: 3.1100001, y: -0.61}
+        - {x: 3.3300002, y: -0.66}
+        - {x: 3.26, y: -0.76}
+        - {x: 4.09, y: -0.66}
+        - {x: 3.81, y: -0.33}
+        - {x: 3.42, y: -0.28}
+        - {x: 3.0800002, y: -0.46000004}
+        - {x: 2.77, y: -0.43}
+        - {x: 2.8700001, y: -0.56}
+        - {x: 2.8100002, y: -0.76}
+  - Key:
+      Texture: {fileID: 2800000, guid: 8ff3f9da1a138d647a9cc70148ab240c, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1109
+        height: 161
+    Value:
+      List:
+      - Array:
+        - {x: 3.3300002, y: -0.76}
+        - {x: 4.16, y: -0.66}
+        - {x: 3.87, y: -0.32000002}
+        - {x: 2.75, y: -0.4}
+        - {x: 2.86, y: -0.51}
+        - {x: 2.78, y: -0.72}
+        - {x: 3.1399999, y: -0.58}
+        - {x: 3.37, y: -0.66}
+        - {x: 3.3400002, y: -0.74}
+  - Key:
+      Texture: {fileID: 2800000, guid: 6c4dffee9f00db6438c057f967d56258, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1109
+        height: 161
+    Value:
+      List:
+      - Array:
+        - {x: 3.4, y: -0.76}
+        - {x: 4.23, y: -0.64000005}
+        - {x: 3.92, y: -0.31}
+        - {x: 3.17, y: -0.42}
+        - {x: 2.91, y: -0.33}
+        - {x: 2.89, y: -0.67}
+        - {x: 3.21, y: -0.58}
+        - {x: 3.4299998, y: -0.71}
+  - Key:
+      Texture: {fileID: 2800000, guid: 32572ec453f92784d923d726096b07c4, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1109
+        height: 161
+    Value:
+      List:
+      - Array:
+        - {x: 3.47, y: -0.75}
+        - {x: 4.3, y: -0.65}
+        - {x: 4.01, y: -0.31}
+        - {x: 2.89, y: -0.39}
+        - {x: 3, y: -0.5}
+        - {x: 2.92, y: -0.71}
+        - {x: 3.28, y: -0.57}
+        - {x: 3.51, y: -0.65}
+        - {x: 3.4800003, y: -0.73}
+  - Key:
+      Texture: {fileID: 2800000, guid: 405eb1eda35fea54b9170e5dd198ca32, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1109
+        height: 161
+    Value:
+      List:
+      - Array:
+        - {x: 3.13, y: -0.77000004}
+        - {x: 3.3899999, y: -0.59000003}
+        - {x: 3.6100001, y: -0.64000005}
+        - {x: 3.5400002, y: -0.74}
+        - {x: 4.37, y: -0.65}
+        - {x: 4.09, y: -0.31}
+        - {x: 3.7, y: -0.26}
+        - {x: 3.37, y: -0.44}
+        - {x: 3.05, y: -0.40999997}
+        - {x: 3.1100001, y: -0.76}
+  - Key:
+      Texture: {fileID: 2800000, guid: aaa8a52ba3ef9484498f3ce67c8b0659, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1109
+        height: 161
+    Value:
+      List:
+      - Array:
+        - {x: 3.6100001, y: -0.74}
+        - {x: 4.44, y: -0.62}
+        - {x: 4.13, y: -0.29}
+        - {x: 3.03, y: -0.38}
+        - {x: 3.1399999, y: -0.48999998}
+        - {x: 3.05, y: -0.69}
+        - {x: 3.4299998, y: -0.56}
+        - {x: 3.6599998, y: -0.64000005}
+        - {x: 3.62, y: -0.72}
+  - Key:
+      Texture: {fileID: 2800000, guid: 9fcf2bda42c9efd418efabf4eb3d31d9, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1109
+        height: 161
+    Value:
+      List:
+      - Array:
+        - {x: 3.68, y: -0.73}
+        - {x: 4.51, y: -0.63}
+        - {x: 4.23, y: -0.29}
+        - {x: 3.8200002, y: -0.26}
+        - {x: 3.46, y: -0.39}
+        - {x: 3.19, y: -0.31}
+        - {x: 3.1799998, y: -0.65}
+        - {x: 3.46, y: -0.55}
+        - {x: 3.74, y: -0.65}
+  - Key:
+      Texture: {fileID: 2800000, guid: 281b00b5bc92ee64682aa7e417ac1e45, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1109
+        height: 161
+    Value:
+      List:
+      - Array:
+        - {x: 3.7500002, y: -0.72}
+        - {x: 4.58, y: -0.62}
+        - {x: 4.29, y: -0.28}
+        - {x: 3.17, y: -0.36}
+        - {x: 3.28, y: -0.47}
+        - {x: 3.1999998, y: -0.68}
+        - {x: 3.56, y: -0.54}
+        - {x: 3.79, y: -0.62}
+        - {x: 3.76, y: -0.7}
+  - Key:
+      Texture: {fileID: 2800000, guid: 9f677738a31af7b4e8d7a223be737e40, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1109
+        height: 161
+    Value:
+      List:
+      - Array:
+        - {x: 3.42, y: -0.74}
+        - {x: 3.67, y: -0.55}
+        - {x: 3.9, y: -0.62}
+        - {x: 3.8200002, y: -0.71}
+        - {x: 4.65, y: -0.61}
+        - {x: 4.38, y: -0.28}
+        - {x: 4.02, y: -0.22}
+        - {x: 3.6599998, y: -0.4}
+        - {x: 3.3400002, y: -0.37}
+        - {x: 3.37, y: -0.71}
+  - Key:
+      Texture: {fileID: 2800000, guid: 25fd4256a7cd7884aa58183eefafc9e5, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1109
+        height: 161
+    Value:
+      List:
+      - Array:
+        - {x: 3.89, y: -0.7}
+        - {x: 4.7200003, y: -0.59999996}
+        - {x: 4.4300003, y: -0.26}
+        - {x: 3.3100002, y: -0.34}
+        - {x: 3.42, y: -0.45000002}
+        - {x: 3.3400002, y: -0.66}
+        - {x: 3.7, y: -0.52}
+        - {x: 3.93, y: -0.59999996}
+        - {x: 3.9, y: -0.68}
+  - Key:
+      Texture: {fileID: 2800000, guid: 4225a0fe25b3cfa47aef00f8813f66bf, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1109
+        height: 161
+    Value:
+      List:
+      - Array:
+        - {x: 3.9600003, y: -0.69}
+        - {x: 4.78, y: -0.56}
+        - {x: 4.5, y: -0.25}
+        - {x: 4.1, y: -0.22}
+        - {x: 3.74, y: -0.35}
+        - {x: 3.47, y: -0.27}
+        - {x: 3.45, y: -0.59999996}
+        - {x: 3.77, y: -0.51}
+        - {x: 3.99, y: -0.64000005}
+  - Key:
+      Texture: {fileID: 2800000, guid: d285814f1a6ad544aae1f43daaa4018c, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1109
+        height: 161
+    Value:
+      List:
+      - Array:
+        - {x: 4.03, y: -0.68}
+        - {x: 4.85, y: -0.55}
+        - {x: 4.59, y: -0.25}
+        - {x: 4.36, y: -0.2}
+        - {x: 3.44, y: -0.34}
+        - {x: 3.56, y: -0.43}
+        - {x: 3.51, y: -0.65}
+        - {x: 3.83, y: -0.5}
+        - {x: 4.06, y: -0.63}
+  - Key:
+      Texture: {fileID: 2800000, guid: 5a4bbccfc842046418d7b7f599676772, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1109
+        height: 161
+    Value:
+      List:
+      - Array:
+        - {x: 3.68, y: -0.69}
+        - {x: 3.95, y: -0.51}
+        - {x: 4.17, y: -0.57}
+        - {x: 4.1, y: -0.67}
+        - {x: 4.92, y: -0.54}
+        - {x: 4.6600003, y: -0.24000001}
+        - {x: 4.26, y: -0.18}
+        - {x: 3.93, y: -0.36}
+        - {x: 3.6100001, y: -0.33}
+        - {x: 3.65, y: -0.67}
+  - Key:
+      Texture: {fileID: 2800000, guid: f14cc7b192ee2a342a4d97a33584bd5a, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1109
+        height: 161
+    Value:
+      List:
+      - Array:
+        - {x: 4.16, y: -0.65}
+        - {x: 4.9900002, y: -0.53000003}
+        - {x: 4.73, y: -0.23000002}
+        - {x: 4.4500003, y: -0.17}
+        - {x: 3.95, y: -0.34}
+        - {x: 3.58, y: -0.31}
+        - {x: 3.7, y: -0.40999997}
+        - {x: 3.63, y: -0.62}
+        - {x: 3.95, y: -0.48000002}
+        - {x: 4.21, y: -0.59000003}
+  - Key:
+      Texture: {fileID: 2800000, guid: 64dcfce1da287fd4186a65f5e2da20bf, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1109
+        height: 161
+    Value:
+      List:
+      - Array:
+        - {x: 4.23, y: -0.64000005}
+        - {x: 5.06, y: -0.52}
+        - {x: 4.77, y: -0.2}
+        - {x: 4.38, y: -0.17}
+        - {x: 4.02, y: -0.29999998}
+        - {x: 3.74, y: -0.22}
+        - {x: 3.72, y: -0.55}
+        - {x: 4.05, y: -0.46000004}
+        - {x: 4.25, y: -0.61}
+  - Key:
+      Texture: {fileID: 2800000, guid: 3e6dfbc38c17eb84e9e93c9b1bf2f869, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1109
+        height: 161
+    Value:
+      List:
+      - Array:
+        - {x: 4.3, y: -0.63}
+        - {x: 5.13, y: -0.53000003}
+        - {x: 4.85, y: -0.19}
+        - {x: 3.7300003, y: -0.26}
+        - {x: 3.83, y: -0.38}
+        - {x: 3.74, y: -0.58}
+        - {x: 4.1, y: -0.45000002}
+        - {x: 4.35, y: -0.53000003}
+        - {x: 4.31, y: -0.61}
+  - Key:
+      Texture: {fileID: 2800000, guid: 3e4579b55f04e344bb3983979a24ba10, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1109
+        height: 161
+    Value:
+      List:
+      - Array:
+        - {x: 3.9600003, y: -0.64000005}
+        - {x: 4.2200003, y: -0.46000004}
+        - {x: 4.44, y: -0.51}
+        - {x: 4.37, y: -0.61}
+        - {x: 5.2000003, y: -0.52}
+        - {x: 4.92, y: -0.18}
+        - {x: 4.53, y: -0.13}
+        - {x: 4.2000003, y: -0.31}
+        - {x: 3.88, y: -0.28}
+        - {x: 3.9799998, y: -0.40999997}
+        - {x: 3.93, y: -0.62}
+  - Key:
+      Texture: {fileID: 2800000, guid: eb82b0f60799eac4bb0c21843c9a0781, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1109
+        height: 161
+    Value:
+      List:
+      - Array:
+        - {x: 4.44, y: -0.59999996}
+        - {x: 5.27, y: -0.5}
+        - {x: 4.98, y: -0.16000001}
+        - {x: 3.8600001, y: -0.24000001}
+        - {x: 3.97, y: -0.35}
+        - {x: 3.91, y: -0.57}
+        - {x: 4.2400002, y: -0.42}
+        - {x: 4.4700003, y: -0.55}
+  - Key:
+      Texture: {fileID: 2800000, guid: 13605c6cf88c2044b89cf632081039a1, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1109
+        height: 161
+    Value:
+      List:
+      - Array:
+        - {x: 4.51, y: -0.58}
+        - {x: 5.34, y: -0.48000002}
+        - {x: 5.04, y: -0.14}
+        - {x: 4.67, y: -0.11}
+        - {x: 4.28, y: -0.25}
+        - {x: 4.01, y: -0.17}
+        - {x: 4, y: -0.5}
+        - {x: 4.33, y: -0.40999997}
+        - {x: 4.53, y: -0.55}
+  - Key:
+      Texture: {fileID: 2800000, guid: 952cec2f1d96f6b4698dbf35f6d415bf, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1109
+        height: 161
+    Value:
+      List:
+      - Array:
+        - {x: 4.57, y: -0.57}
+        - {x: 5.4, y: -0.44}
+        - {x: 5.1200004, y: -0.13}
+        - {x: 4.9, y: -0.09}
+        - {x: 4.38, y: -0.25}
+        - {x: 3.99, y: -0.22}
+        - {x: 4.11, y: -0.33}
+        - {x: 4.01, y: -0.52}
+        - {x: 4.38, y: -0.39}
+        - {x: 4.59, y: -0.54}
+  - Key:
+      Texture: {fileID: 2800000, guid: b886792bd914f884f899a62936276375, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1109
+        height: 161
+    Value:
+      List:
+      - Array:
+        - {x: 4.23, y: -0.58}
+        - {x: 4.4900002, y: -0.4}
+        - {x: 4.71, y: -0.45000002}
+        - {x: 4.64, y: -0.55}
+        - {x: 5.47, y: -0.43}
+        - {x: 5.1800003, y: -0.11}
+        - {x: 4.88, y: -0.060000002}
+        - {x: 4.46, y: -0.25}
+        - {x: 4.15, y: -0.22}
+        - {x: 4.25, y: -0.34}
+        - {x: 4.2000003, y: -0.56}
+  - Key:
+      Texture: {fileID: 2800000, guid: 36b8e7524a5c8f34fa4e9cfe1c56dee3, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1109
+        height: 161
+    Value:
+      List:
+      - Array:
+        - {x: 4.71, y: -0.54}
+        - {x: 5.54, y: -0.42}
+        - {x: 5.23, y: -0.09}
+        - {x: 4.13, y: -0.18}
+        - {x: 4.2400002, y: -0.29}
+        - {x: 4.15, y: -0.48999998}
+        - {x: 4.53, y: -0.36}
+        - {x: 4.76, y: -0.44}
+        - {x: 4.7200003, y: -0.52}
+  - Key:
+      Texture: {fileID: 2800000, guid: 3ad5253f24cd7dc47b393a0c60b56701, type: 3}
+      Rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1109
+        height: 161
+    Value:
+      List:
+      - Array:
+        - {x: -4.96, y: -0.43}
+        - {x: -4.13, y: -0.33}
+        - {x: -4.42, y: 0.010000001}
+        - {x: -4.8199997, y: 0.040000003}
+        - {x: -5.17, y: -0.09}
+        - {x: -5.45, y: -0.010000001}
+        - {x: -5.46, y: -0.35}
+        - {x: -5.1400003, y: -0.25}
+        - {x: -4.9100003, y: -0.36}
+--- !u!50 &2772511131661728574
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2772511131661728561}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 1
+  m_Constraints: 0
