@@ -1,20 +1,3 @@
-{
-"instructions_readme": "1) Open Chrome, 2) go to chrome://tracing, 3) click Load, 4) navigate to this file.",
-
-"traceEvents":[
-{ "pid": "il2cpp_outer", "ph":"M", "name": "process_name", "args": {"name": "il2cpp_outer"} },
-{ "pid": "il2cpp_outer", "ph":"M", "name": "process_sort_index", "args": {"sort_index": -1} },
-{ "pid": "il2cpp_outer", "tid": 1, "ph":"M", "name": "thread_name", "args": {"name": "Main thread"} },
-{ "pid": "il2cpp_outer", "tid": 1,"ts": 1664701960371613,"dur": 168894, "ph":"X", "name": "il2cpp.exe"},
-{ "pid": "il2cpp_outer", "tid": 1,"ts": 1664701960374896,"dur": 161205, "ph":"X", "name": "BeeDriverRunner.Execute"},
-{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
-{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
-{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "Main thread" } },
-{ "pid": 0, "tid": 1, "ts": 1664701960393152, "dur": 137347, "ph": "X", "name": "Build FinalProgram", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1664701960394751, "dur": 8171, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1664701960403177, "dur": 127224, "ph": "X", "name": "Run Backend", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1664701960530432, "dur": 66, "ph": "X", "name": "Finish", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1664701960534631, "dur": 1090, "ph": "X", "name": "Main thread", "args": {} },
 { "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
 ,{ "pid":12345, "tid":0, "ts":1664701960466059, "dur":791, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
 ,{ "pid":12345, "tid":0, "ts":1664701960466861, "dur":57, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
@@ -95,15 +78,4 @@
 ,{ "pid":12345, "tid":16, "ts":1664701960513769, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"FinalProgram" }}
 ,{ "pid":12345, "tid":16, "ts":1664701960513770, "dur":1, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
 ,{ "pid":12345, "tid":0, "ts":1664701960515822, "dur":314, "ph":"X", "name": "ProfilerWriteOutput" }
-,{ "pid": 0, "tid": 1, "ts": 1664701960535765, "dur": 307, "ph": "X", "name": "backend_profiler0.traceevents", "args": {} },
-{ "pid": 0, "tid": 1, "ts": 1664701960534061, "dur": 2030, "ph": "X", "name": "Write chrome-trace events", "args": {} },
-{}
-
-],
-"meta_datetime": "10/02/2022 20:12:40",
-"meta_command_line": "\"C:\\Program Files\\Unity\\Hub\\Editor\\2021.3.4f1\\Editor\\Data\\il2cpp\\build\\deploy\\il2cpp.dll\" --convert-to-cpp --emit-null-checks --enable-array-bounds-check --dotnetprofile=unityaot-macos \"--cachedirectory=D:/Reduxe/Git Uploads/icefishing/icefishing/Library/Il2cppBuildCache/iOS\" \"--additional-cpp=D:/Reduxe/Git Uploads/icefishing/icefishing/Library/Il2cppBuildCache/iOS/additionalCppFiles/UnityClassRegistration.cpp\" \"--additional-cpp=D:/Reduxe/Git Uploads/icefishing/icefishing/Library/Il2cppBuildCache/iOS/additionalCppFiles/UnityICallRegistration.cpp\" --incremental-g-c-time-slice=3 --avoid-dynamic-library-copy --dont-deploy-baselib --profiler-report \"--directory=D:/Reduxe/Git Uploads/icefishing/icefishing/Temp/StagingArea/Data/Managed\" \"--generatedcppdir=D:/Reduxe/Git Uploads/icefishing/icefishing/Library/Il2cppBuildCache/iOS/il2cppOutput\" \"--stats-output-dir=D:/Reduxe/Git Uploads/icefishing/icefishing/Library/Il2cppBuildCache/iOS/il2cppStats\" --convert-in-graph",
-"meta_command_line_args": "C:\\Program Files\\Unity\\Hub\\Editor\\2021.3.4f1\\Editor\\Data\\il2cpp\\build\\deploy\\il2cpp.dll --convert-to-cpp --emit-null-checks --enable-array-bounds-check --dotnetprofile=unityaot-macos --cachedirectory=D:/Reduxe/Git Uploads/icefishing/icefishing/Library/Il2cppBuildCache/iOS --additional-cpp=D:/Reduxe/Git Uploads/icefishing/icefishing/Library/Il2cppBuildCache/iOS/additionalCppFiles/UnityClassRegistration.cpp --additional-cpp=D:/Reduxe/Git Uploads/icefishing/icefishing/Library/Il2cppBuildCache/iOS/additionalCppFiles/UnityICallRegistration.cpp --incremental-g-c-time-slice=3 --avoid-dynamic-library-copy --dont-deploy-baselib --profiler-report --directory=D:/Reduxe/Git Uploads/icefishing/icefishing/Temp/StagingArea/Data/Managed --generatedcppdir=D:/Reduxe/Git Uploads/icefishing/icefishing/Library/Il2cppBuildCache/iOS/il2cppOutput --stats-output-dir=D:/Reduxe/Git Uploads/icefishing/icefishing/Library/Il2cppBuildCache/iOS/il2cppStats --convert-in-graph",
-"meta_user_name": "bgjac",
-"meta_os_version": "Microsoft Windows NT 10.0.22000.0",
-"meta_cpu_count": "16"
-}
+,

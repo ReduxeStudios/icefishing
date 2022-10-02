@@ -1191,4 +1191,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/Preloader.unity
   - Assets/Scenes/MainMenu.unity
   - Assets/Scenes/SampleScene.unity
-  playerPath: D:/Reduxe/iOS Builds
+  playerPath: D:/Reduxe/icefishingbuilds
