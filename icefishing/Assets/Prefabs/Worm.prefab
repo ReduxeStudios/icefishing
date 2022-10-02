@@ -45,7 +45,7 @@ GameObject:
   - component: {fileID: 7103512233313844677}
   - component: {fileID: 3980113117852920547}
   - component: {fileID: 8724209342674097266}
-  - component: {fileID: 4307690175963805945}
+  - component: {fileID: 5612842448643754169}
   m_Layer: 0
   m_Name: Worm
   m_TagString: Untagged
@@ -294,8 +294,9 @@ MonoBehaviour:
   audio3: {fileID: 8300000, guid: e3d25ee41cba29348901aa3db92f8e65, type: 3}
   audio4: {fileID: 8300000, guid: 4bc1cfa59ca96fe4c921a6c445bfbdc2, type: 3}
   audio5: {fileID: 0}
+  audio6: {fileID: 0}
   source: {fileID: 3980113117852920547}
---- !u!114 &4307690175963805945
+--- !u!114 &5612842448643754169
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -304,9 +305,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 6753083607433699085}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7e28e3b6de3c3fb48b5f1e0fbea0d224, type: 3}
+  m_Script: {fileID: 11500000, guid: 63a552ae3526e4442a91a7cc3b56acd6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  joystick: {fileID: 0}
-  moveSpeed: 0
+  moveSpeed: 5
   worm: {fileID: 6753083607433699085}

@@ -23,7 +23,7 @@ public class FollowMouse : MonoBehaviour
     void Update()
         {
         mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        worm.transform.position = new Vector3(xAxis, mousePosition.y*1f + yOffset, 1f);
+        worm.transform.position = new Vector3(xAxis, mousePosition.y*2f + yOffset, 1f);
         if (worm.transform.position.y >= 3.95f)
             {
             Vector3 newPosition = new Vector3(xAxis, 3.95f, 1f);

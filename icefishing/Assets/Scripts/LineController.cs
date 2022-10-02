@@ -24,11 +24,7 @@ public class LineController : MonoBehaviour
         {
             lr.SetPosition(i, points[i].position);
         }
-        for (int p = 1; 4 > points[p].position.y; );
-        {
-           
-            Debug.Log("Working");        
-        }
+        
     }
 
     private void Start()
